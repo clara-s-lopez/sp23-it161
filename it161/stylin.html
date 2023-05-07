@@ -20,21 +20,36 @@
                 padding: 1%;
             }
 
-
             img {
                 float:left;
                 margin:1em;
                 max-width: 400px;
             }
-            a {
-                color:black;
-            }
             
-            a:hover {
-                color:red;
-                background-color:yellow;
-                text-decoration:none;
+            /* start nav rules */
+            nav{
+                text-align:center; /* centers the nav */
             }
+
+
+            nav a{
+                color:#000; /* font color is black */
+            }
+
+
+            nav ul {
+                list-style:none; /* removes the bullets */
+            }
+            nav li
+            {
+                display:inline-block; /* makes <li> horizontal, but able to declare margins */
+                margin:0 2%; /* margin left-right, gets smaller as necessary */
+            }
+            nav a:hover{
+                text-decoration: none; /* default underline goes away on hover */
+            }
+            /* end nav rules */
+
             
             footer {
                 clear:both;
