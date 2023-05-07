@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="noindex,nofollow">
+        <title>Stylin' with CSS by Clara Lopez</title>
+        <!--START style here-->
+        <style>
+            html {
+                background-color: #ccc;
+            }
+
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #fff;
+                max-width: 960px;
+                width: 90%;
+            }
+
+
+            img {
+                float:left;
+                margin:1em;
+                max-width: 400px;
+            }
+            a {
+                color:black;
+            }
+            
+            a:hover {
+                color:red;
+                background-color:yellow;
+                text-decoration:none;
+            }
+            
+            footer {
+                clear:both;
+            }
+            
+            table, th, td {
+                border: 1px solid;
+                border-collapse:collapse;
+            }
+
+        </style>
+        <!--END style here-->
+    </head>
+    <body>
+        <header>
+            <h1>Stylin' with CSS by Clara Lopez</h1>
+            <nav>
+                <a href="https://www.w3.org/" target="_blank">The W3C</a> | 
+                <a href="https://whatwg.org/" target="_blank">WHATWG</a> | 
+                <a href="https://www.w3schools.com/" target="_blank">W3Schools</a> | 
+                <a href="https://linkedin.com/learning/login" target="_blank">LinkedIn Learning Library</a>
+            </nav>
+        </header>
+        <p>This page demonstrates how to create a look and feel on our pages using CSS.</p>
+        <p>
+            <ul>
+                <li>The Handmaiden</li>
+                <li>Pulse</li>
+                <li>Ghost in the Shell</li>
+            </ul>
+        </p>
+        <p>
+            <ol>
+                <li>Orange</li>
+                <li>Strawberry</li>
+                <li>Pineapple</li>
+            </ol>
+        </p>
+        <p><img src="https://picsum.photos/200/300" alt="random image supplied by Lorem Picsum"></p>
+        <p>Pictures provided by <a href="https://lorempicsum.photos" target="_blank">Lorem Picsum</a></p>
+        <p>This is how the <strong>strong</strong> tag works.</p>
+        <p>This is how the <em>em</em> tag works.</p>
+        <p>This is how the <strike>strike</strike> tag works.</p>
+        <div>This is text inside a div. <span style="background-color: yellow;">This is text inside a span</span></div>
+        <table>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Jean</td>
+                <td>Doe</td>
+                <td>jean@example.com</td>
+            </tr>
+         </table>
+
+            <footer>
+                <p><small>&copy; 2023 by 
+                    Clara Lopez, All Rights Reserved ~ 
+                    <a id="html-checker" href="#">Check HTML</a> ~ 
+                    <a id="css-checker" href="#">Check CSS</a></small>
+               </p>
+              </footer>
+            <script>
+              //https://tinyurl.com/dynamic-html-checker
+              document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+                
+              document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+           </script>
+    </body>
+</html>
