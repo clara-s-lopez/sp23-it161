@@ -4,6 +4,7 @@ table {
     border-collapse: collapse;
     margin:auto;
     background-color:#fff;
+    color:#000;
 }
 
 tr {
