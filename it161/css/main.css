@@ -30,6 +30,7 @@ h1 {
 }
 /* start positioning styles */
 .text-align-center{
+    color: black;
     text-align:center;
     background-color:aqua;
  }
@@ -51,6 +52,7 @@ h1 {
  
  /* Create two equal columns that floats next to each other */
  .my-column {
+    color: black;
     float: left;
     width: 50%;
     padding: 10px;
