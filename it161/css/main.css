@@ -36,6 +36,7 @@ h1 {
  
 
  .margin-auto > div{
+    color: black;
     margin:auto;
     width:50%;
     background-color:beige;
