@@ -29,7 +29,39 @@ h1 {
     line-height: 2.5em;
 }
 /* start positioning styles */
+.text-align-center{
+    text-align:center;
+    background-color:aqua;
+ }
+ 
+ 
+ .margin-auto > div{
+    margin:auto;
+    width:50%;
+    background-color:beige;
+    text-align:center;
+ }
 
+ /* Allows box to take up full space, ignoring padding/margin */
+* {
+    box-sizing: border-box;
+  }
+ 
+ 
+ /* Create two equal columns that floats next to each other */
+ .my-column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height: 300px; /* Can be removed. Only for demonstration */
+  }
+   /* Clear floats after the columns */
+  .my-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+ 
 
 
 
