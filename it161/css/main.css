@@ -34,7 +34,7 @@ h1 {
     background-color:aqua;
  }
  
- 
+
  .margin-auto > div{
     margin:auto;
     width:50%;
@@ -62,7 +62,12 @@ h1 {
     clear: both;
   }
  
-
+  @media all and (max-width:500px) {
+    .my-column {
+        width: 100%;
+      }
+ }
+ 
 
 
 /* end positioning styles */
