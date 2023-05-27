@@ -103,6 +103,12 @@ h1 {
   }
  
 
+  .social-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+ 
+
 /* end positioning styles */
 
 
