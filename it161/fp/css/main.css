@@ -27,7 +27,7 @@ body{
 
 ::selection {
     color: #000; 
-    background: rgb(192, 80, 0);
+    background: #C92E24;
 }
 
 h1 {
@@ -37,6 +37,7 @@ h1 {
     background: #FFFFFF;
     line-height: 2.5em;
 }
+
 h1.furiaflamenca {
     font-family: 'DIN Next LT Pro';
     font-size: 39px;
@@ -190,13 +191,13 @@ h2,h3 {
 }
 
 a {
-    color:rgb(192, 80, 0);
+    color: #961851;
     text-decoration: none;
 }
 
 a:hover {
     color: black;
-    background-color: rgb(192, 80, 0);
+    background-color: #961851;
     text-decoration: none;
 }
 
