@@ -14,8 +14,6 @@
     margin: auto;
     background-color: #FFFFFF;
     overflow: auto;
-    font-family: 'Futura LT Book', sans-serif;
-
 }
 
 .topnav a {
@@ -27,6 +25,7 @@
     text-decoration: none;
     text-transform: capitalize;
     font-size: 14px;
+    font-family: 'Futura LT Book', sans-serif;
 }
 
 .topnav a.hover, .active {
