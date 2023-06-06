@@ -1,9 +1,18 @@
 /* Global rules */
 
-@import url('https://fonts.googleapis.com/css?family=Cormorant|Karla');
+/* Fonts */
+@import url('https://db.onlinewebfonts.com/c/5b0be84ee7019608e3e098c541290494?family=DIN+Next+LT+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://db.onlinewebfonts.com/c/16efa2896f117dae2debeb23ab4715dd?family=DidoteTextW01-Italic');
+@font-face {
+    font-family: 'Futura LT Book';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Futura LT Book'), url('fonts/FuturaLT-Book.woff') format('woff');
+    }
 
 html {
-    background-color: rgb(45, 45, 45);
+    background-color: #FFFFFF;
     font-family: 'Karla', serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -22,12 +31,28 @@ body{
 }
 
 h1 {
-    color: whitesmoke;
+    color: #000;
     font-weight: normal;
     margin: auto;
-    background: rgb(45, 45, 45);
+    background: #FFFFFF;
     line-height: 2.5em;
 }
+h1.furiaflamenca {
+    font-family: 'DIN Next LT Pro';
+    font-size: 39px;
+}
+
+h1.estelavelez {
+    font-family: 'DidoteTextW01-Italic';
+    font-size: 30px;
+}
+
+
+h1.estelavelez {
+    font-family: 'DidoteTextW01-Italic';
+    font-size: 30px;
+}
+
 /* start positioning styles */
 .text-align-center{
     color: black;
