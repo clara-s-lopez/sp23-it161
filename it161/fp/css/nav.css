@@ -21,9 +21,8 @@
     display: block;
     color: #000000;
     text-align: center;
-    padding: 12px 12px;
+    padding: 0px 10px 0px;
     text-decoration: none;
-    text-transform: capitalize;
     font-size: 14px;
     font-family: 'Futura LT Book', sans-serif;
 }
