@@ -13,7 +13,6 @@
 
 html {
     background-color: #FFFFFF;
-    font-family: 'Karla', serif;
     font-size: 0.95em;
     line-height: 1.5em;
     background-image: url("../images/350871.jpg");
@@ -46,6 +45,11 @@ h1.furiaflamenca {
 h1.estelavelez {
     font-family: 'DidoteTextW01-Italic';
     font-size: 30px;
+}
+
+p {
+    font-family: 'Futura LT Book', sans-serif;
+    font-size: 18px;
 }
 
 /* start positioning styles */
