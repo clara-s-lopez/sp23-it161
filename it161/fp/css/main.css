@@ -132,6 +132,8 @@ p {
  
 
   .social-container {
+    height: 39px;
+    width: 251px;
     display: flex;
     justify-content: space-evenly;
   }
