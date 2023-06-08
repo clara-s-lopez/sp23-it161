@@ -27,6 +27,7 @@
     text-decoration: none;
     font-size: 14px;
     font-family: 'Futura LT Book', sans-serif;
+    overflow: hidden;
 }
 
 /* Highlight active page*/
