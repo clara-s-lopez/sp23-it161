@@ -10,12 +10,14 @@
     src: local('Futura LT Book'), url('fonts/FuturaLT-Book.woff') format('woff');
     }
 
+ /* Navbar container */
 .topnav {
     margin: auto;
     background-color: #FFFFFF;
-    overflow: auto;
+    overflow: hidden;
 }
 
+/* Links inside the navbar */
 .topnav a {
     float: left;
     display: block;
@@ -26,6 +28,7 @@
     font-size: 14px;
     font-family: 'Futura LT Book', sans-serif;
 }
+
 
 .topnav a.hover, .active {
     background-color: darkcyan;
