@@ -57,6 +57,12 @@ a.learnmore {
     font-size: 27px;
 }
 
+a.headerlink {
+    font-family: Sacramento, cursive;
+    font-size: 40px;
+    
+}
+
 /* start positioning styles */
 .text-align-center{
     color: black;
