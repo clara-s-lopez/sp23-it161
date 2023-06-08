@@ -29,8 +29,6 @@
     font-family: 'Futura LT Book', sans-serif;
 }
 
-/*https://www.w3docs.com/snippets/css/how-to-create-a-drop-down-navigation-menu-with-css.html*/
-
 .topnav a.hover, .active {
     background-color: #961851;
 }
