@@ -47,11 +47,6 @@ h1.estelavelez {
     font-size: 30px;
 }
 
-p {
-    font-family: 'Futura LT Book', sans-serif;
-    font-size: 18px;
-}
-
 /* start positioning styles */
 .text-align-center{
     color: black;
@@ -188,6 +183,15 @@ h1.page-header{
 
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
+    font-family: 'Futura LT Book', sans-serif;
+    font-size: 18px;
+}
+
+.introduction {
+    background-color: #FFFFFF;
+    color: #000;
+
+
 }
 
 h2,h3 {
