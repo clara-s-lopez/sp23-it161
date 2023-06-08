@@ -30,11 +30,6 @@
     overflow: hidden;
 }
 
-/* Highlight active page*/
-.active {
-    background-color: #961851;
-}
-
 /*highlight as you hover over a selection*/
 .topnav a.hover {
     color: #961851;
