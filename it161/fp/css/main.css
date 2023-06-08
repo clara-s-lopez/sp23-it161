@@ -47,6 +47,16 @@ h1.estelavelez {
     font-size: 30px;
 }
 
+a.introbutton {
+    font-family: Sacramento, cursive;
+    font-size: 40px;
+}
+
+a.learnmore {
+    font-family: Sacramento, cursive;
+    font-size: 27px;
+}
+
 /* start positioning styles */
 .text-align-center{
     color: black;
