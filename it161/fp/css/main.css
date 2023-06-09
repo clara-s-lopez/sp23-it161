@@ -295,10 +295,12 @@ footer {
         padding-left: 1%;
     }
     
-    picture.profile img {
-        width: 50%;
-        float: left;
-        margin-right: 2em;
+    picture.introduction-image img {
+        width: 232px;
+        height: 336px;
+        object-fit: contain;
+        float: right;
+        margin-left: 2em;
     }
     
 }
@@ -315,7 +317,7 @@ footer {
         padding-left: 1%;
     }
     
-    picture.profile img {
+    picture.introduction-image img {
         width: 50%;
         float: right;
         margin-left: 1em;
