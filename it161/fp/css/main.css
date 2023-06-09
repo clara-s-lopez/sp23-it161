@@ -165,16 +165,17 @@ a.headerlink {
  /* flexible image rules end here */
 
  /* grid rules start here */
- .grid {
+
+ .linkgrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: stretch;
     align-items: stretch;
     column-gap: 20px;
     row-gap: 20px;
-  }
+}
   
-  .content {
+  .linkcontent {
     color: #FFF;
     background-color: #000;
     font-weight: 600;
@@ -183,7 +184,8 @@ a.headerlink {
     height: 100%;
     padding: 10px;
     opacity: 50%;
-  }
+}
+
 /* grid rules end here */ 
  
 
