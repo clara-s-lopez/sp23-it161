@@ -173,9 +173,9 @@ a.headerlink {
       "gallery" 2fr
       "introduction" 1fr
       "links" auto
-      "footer" auto
+      "footer" 1%
       / 100%;
-    gap: 8px;
+    gap: 10px;
   }
   
   header { grid-area: header; }
@@ -301,6 +301,13 @@ footer {
         object-fit: contain;
         float: right;
         margin-left: 2em;
+    }
+
+    picture.ff-logo img {
+        height: 120px;
+        width: 228px;
+        float:left;
+        vertical-align: baseline;
     }
     
 }
