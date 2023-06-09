@@ -164,7 +164,7 @@ a.headerlink {
  
  /* flexible image rules end here */
 
- /* grids */
+ /* grid rules start here */
  .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -182,9 +182,9 @@ a.headerlink {
     box-sizing: border-box;
     height: 100%;
     padding: 10px;
+    opacity: 50%;
   }
- 
- 
+/* grid rules end here */ 
  
 
 /* end positioning styles */
