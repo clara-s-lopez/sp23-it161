@@ -64,11 +64,6 @@ a.headerlink {
 }
 
 /* start positioning styles */
-.text-align-center{
-    color: black;
-    text-align:center;
-    background-color:aqua;
- }
 
  .margin-auto > div{
     color: black;
@@ -170,18 +165,20 @@ a.headerlink {
     display: grid;
     grid:
       "header" 212px
-      "gallery" 2fr
-      "introduction" 1fr
-      "links" auto
-      "footer" 1%
+      "gallery" 604px
+      "introduction" 451px
+      "links" 537px
+      "social-media" 187px
+      "footer" 286px
       / 100%;
-    gap: 10px;
+    gap: 10px 8px;
   }
   
   header { grid-area: header; }
   section.gallery { grid-area: gallery; }
   section.introduction { grid-area: introduction; }
   section.links { grid-area: links; }
+  section.social-media { grid-area: social-media; }
   footer { grid-area: footer; }
 
 
