@@ -214,7 +214,7 @@ a.headerlink {
 
  /* grid rules start here */
 
- .layout {
+.layout {
     width: 100%;
     display: grid;
     grid:
@@ -226,12 +226,20 @@ a.headerlink {
       "footer" 286px
       / 100%;
     gap: 10px;
-  }
+}
   
-header { height: 212px; }
-.gallery { height: 604px; }
-.introduction { height: 451px; }
-.links { height: 537px; }
+header {
+    height: 212px; 
+}
+.gallery { 
+    height: 604px; 
+}
+.introduction {
+    height: 451px; 
+}
+.links { 
+    height: 537px; 
+}
 .social-media { 
     height: 187px;
     background-color: #961851;
@@ -274,10 +282,18 @@ header { height: 212px; }
     grid-template-areas:
       ". . .";
     padding: 20px 0px;
-  }
-  
+} 
 
- footer {
+  .link-content {
+    color: #FFF;
+    background-color: rgba(0,0,0,0.75);
+    font-weight: normal;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+footer {
     display: grid; 
     grid-template-columns: 262px 295px 262px; 
     grid-template-rows: 174px; 
@@ -289,7 +305,8 @@ header { height: 212px; }
     justify-items: stretch; 
     align-items: stretch; 
     grid-area: 6 / 1 / 7 / 2;
- }
+}
+
 
 .footer-navigation { 
     grid-area: footer-navigation;
@@ -335,14 +352,6 @@ header { height: 212px; }
 }
 */
   
-.link-content {
-    color: #FFF;
-    background-color: rgba(0,0,0,0.75);
-    font-weight: normal;
-    text-align: center;
-    box-sizing: border-box;
-    height: 100%;
-}
 
 /* grid rules end here */ 
  
