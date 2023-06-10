@@ -173,15 +173,18 @@ a.headerlink {
       "social-media" 187px
       "footer" 286px
       / 100%;
-    gap: 10px 8px;
+    gap: 10px;
   }
   
-  header { grid-area: header; }
-  .gallery { grid-area: gallery; }
-  .introduction { grid-area: introduction; }
-  .links { grid-area: links; }
-  .social-media { grid-area: social-media; }
-  footer { grid-area: footer; }
+  header { height: 212px; }
+  .gallery { height: 604px; }
+  .introduction { height: 451px; }
+  .links { height: 537px; }
+  .social-media { 
+    height: 187px;
+    background-color: #961851;
+}
+  footer { height: 286px; }
 
 /*old*/
 /*
@@ -198,26 +201,48 @@ a.headerlink {
 
  .link-grid {  
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 295px 295px 295px;
     grid-template-rows: 434px;
     gap: 0px 25px;
     grid-auto-flow: row;
     align-content: center;
+    justify-items: stretch;
+    justify-content: space-evenly;
     grid-template-areas:
       ". . .";
     padding: 20px 0px;
   }
   
 
- .footer-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 40px
-    grid-row-gap: 20px
-    justify-items: stretch
-    align-items: stretch
+ footer {
+    display: grid; 
+    grid-template-columns: 262px 295px 262px; 
+    grid-template-rows: 174px; 
+    gap: 0px 25px; 
+    grid-template-areas: 
+        ". . ."; 
+    justify-content: center; 
+    align-items: center; 
+    grid-area: 6 / 1 / 7 / 2;
  }
+
+.footer-navigation { 
+    grid-area: footer-navigation;
+    color:#000;
+    background-color: #FFF;
+}
+.mailing-list { 
+    grid-area: mailing-list;
+    color: #FFF;
+    background-color: #000;
+}
+.contact { 
+    grid-area: contact;
+    color: #000;
+    background-color: #FFF;
+}
+
+
  /*
  .linkgrid {
     display: grid;
