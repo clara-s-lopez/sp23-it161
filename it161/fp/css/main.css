@@ -256,15 +256,19 @@ a.headerlink {
 }
 */
   
-  .link-content {
+.link-content {
     color: #FFF;
-    background-color: #000;
+    background-color: rgba(0,0,0,0.50);
     font-weight: normal;
     text-align: center;
     box-sizing: border-box;
     height: 100%;
-    padding: 10px;
-    opacity: 50%;
+    /*opacity: 50%;*/
+}
+
+img.link-header-image {
+    opacity: 100%;
+
 }
 
 /* grid rules end here */ 
