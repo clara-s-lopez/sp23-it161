@@ -163,6 +163,7 @@ a.headerlink {
  /* grid rules start here */
 
  .layout {
+    width: 100%;
     display: grid;
     grid:
       "header" 212px
