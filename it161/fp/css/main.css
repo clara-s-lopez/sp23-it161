@@ -243,6 +243,12 @@ a.headerlink {
     grid-area: contact;
     color: #000;
     background-color: #FFF;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 13px;
+    font-family: 'DIN Next LT Pro';
 }
 
 
@@ -326,9 +332,7 @@ a:hover {
 }
 
 footer {
-    color: whitesmoke;
     clear: both;
-    text-align: center;
     padding: 1em;
 }
 
