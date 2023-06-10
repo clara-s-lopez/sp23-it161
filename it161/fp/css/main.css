@@ -237,7 +237,14 @@ header {
 }
 
 .introduction {
-    height: 451px; 
+    height: 451px;
+    padding: 20px 5px;
+    color: #000;
+    background-color: #FFFFFF;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .links { 
@@ -359,17 +366,6 @@ footer {
     opacity: 50%;
  }
  */
-
- .introduction {
-    padding: 20px 5px;
-    color: #000;
-    background-color: #FFFFFF;
-    -moz-border-radius-bottomleft: 5px;
-    -moz-border-radius-bottomright: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
- 
 
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
