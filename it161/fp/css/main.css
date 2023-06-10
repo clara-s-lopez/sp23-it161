@@ -232,6 +232,7 @@ a.headerlink {
     grid-area: footer-navigation;
     color:#000;
     background-color: #FFF;
+    text-align: center;
 }
 .mailing-list { 
     grid-area: mailing-list;
