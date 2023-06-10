@@ -310,6 +310,7 @@ header { height: 212px; }
     font-size: 14pt;
     width: 264px;
 }
+
 .contact { 
     grid-area: contact;
     color: #000;
