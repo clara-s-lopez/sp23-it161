@@ -243,7 +243,9 @@ a.headerlink {
 
 #email-input {
     background-color: rgb(59, 59, 59);
-    
+    font-family: 'Futura LT Book';
+    font-size: 14pt;
+    width: 264px;
 }
 .contact { 
     grid-area: contact;
