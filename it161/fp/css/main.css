@@ -255,6 +255,7 @@ p {
 }
 
 h2,h3 {
+    font-family: 'Futura LT Book', sans-serif;
     font-weight: normal;
     margin-left: 1em;
     line-height: 1em;
