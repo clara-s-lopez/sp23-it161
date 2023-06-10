@@ -177,14 +177,24 @@ a.headerlink {
   }
   
   header { grid-area: header; }
-  section.gallery { grid-area: gallery; }
-  section.introduction { grid-area: introduction; }
-  section.links { grid-area: links; }
-  section.social-media { grid-area: social-media; }
+  .gallery { grid-area: gallery; }
+  .introduction { grid-area: introduction; }
+  .links { grid-area: links; }
+  .social-media { grid-area: social-media; }
   footer { grid-area: footer; }
 
 
- .linkgrid {
+ .link-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px
+    grid-row-gap: 20px
+    justify-items: stretch
+    align-items: stretch
+ }
+
+ .footer-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -204,7 +214,7 @@ a.headerlink {
 }
 */
   
-  .linkcontent {
+  .link-content {
     color: #FFF;
     background-color: #000;
     font-weight: normal;
