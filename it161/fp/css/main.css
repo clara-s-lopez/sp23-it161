@@ -38,14 +38,22 @@ h1 {
     line-height: 2.5em;
 }
 
-h1.furiaflamenca {
+.furiaflamenca {
     font-family: 'DIN Next LT Pro';
     font-size: 39px;
 }
 
-h1.estelavelez {
+.estelavelez {
     font-family: 'DidoteTextW01-Italic';
     font-size: 30px;
+}
+
+h2.intro-header {
+    font-family: 'Futura LT Book', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-left: 1em;
+    line-height: 1em;
 }
 
 a.introbutton {
@@ -58,10 +66,9 @@ a.learnmore {
     font-size: 27px;
 }
 
-a.headerlink {
+a.link-box-header {
     font-family: Sacramento, cursive;
     font-size: 40px;
-    
 }
 
 /* start positioning styles */
@@ -229,7 +236,9 @@ a.headerlink {
 }
   
 header {
-    height: 212px; 
+    height: 212px;
+    color: #000;
+    background-color: #FFF; 
 }
 
 .gallery { 
@@ -371,13 +380,6 @@ p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
     font-family: 'Futura LT Book', sans-serif;
     font-size: 18px;
-}
-
-h2,h3 {
-    font-family: 'Futura LT Book', sans-serif;
-    font-weight: normal;
-    margin-left: 1em;
-    line-height: 1em;
 }
 
 a {
