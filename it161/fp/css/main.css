@@ -238,6 +238,12 @@ a.headerlink {
     grid-area: mailing-list;
     color: #FFF;
     background-color: #000;
+    text-align: center;
+}
+
+#email-input {
+    background-color: rgb(59, 59, 59);
+    
 }
 .contact { 
     grid-area: contact;
