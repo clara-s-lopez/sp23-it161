@@ -12,6 +12,10 @@
 }
 
 html {
+    /*
+    font-size: 0.95em;
+    line-height: 1.5em;
+    */
     background-image: url("../images/background.jpg");
     background-repeat: repeat;
     background-size: 2000px 1200px;
@@ -31,7 +35,6 @@ h1 {
     color: #000;
     font-weight: normal;
     margin: auto;
-    background: #FFFFFF;
     line-height: 2.5em;
 }
 
@@ -233,6 +236,8 @@ a.link-box-header {
 }
   
 header {
+    font-size: 0.95em;
+    line-height: 1.5em;
     height: 212px;
     color: #000;
     background-color: #FFF; 
