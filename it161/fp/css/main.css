@@ -279,7 +279,48 @@ header {
     vertical-align: baseline;
 }
 
-footer { height: 286px; }
+footer {
+    height: 286px;
+    display: grid; 
+    grid-template-columns: 262px 295px 262px; 
+    grid-template-rows: 174px; 
+    gap: 0px 25px; 
+    grid-template-areas: 
+        ". . ."; 
+    justify-content: center; 
+    align-content: stretch; 
+    justify-items: stretch; 
+    align-items: stretch; 
+    grid-area: 6 / 1 / 7 / 2;
+}
+.footer-navigation { 
+    grid-area: footer-navigation;
+    color:#000;
+    background-color: #FFF;
+    text-align: center;
+}
+.mailing-list { 
+    grid-area: mailing-list;
+    color: #FFF;
+    background-color: #000;
+    text-align: center;
+}
+#email-input {
+    background-color: rgb(59, 59, 59);
+    font-family: 'Futura LT Book';
+    font-size: 14pt;
+    width: 264px;
+}
+.contact { 
+    grid-area: contact;
+    color: #000;
+    background-color: #FFF;
+    text-align: center;
+}
+.copyright {
+    font-size: 13px;
+    font-family: 'DIN Next LT Pro';
+}
 
 /*old*/
 /*
@@ -293,67 +334,6 @@ footer { height: 286px; }
     align-items: stretch
  }
  */
-
-
-
-footer {
-    display: grid; 
-    grid-template-columns: 262px 295px 262px; 
-    grid-template-rows: 174px; 
-    gap: 0px 25px; 
-    grid-template-areas: 
-        ". . ."; 
-    justify-content: center; 
-    align-content: stretch; 
-    justify-items: stretch; 
-    align-items: stretch; 
-    grid-area: 6 / 1 / 7 / 2;
-}
-
-
-.footer-navigation { 
-    grid-area: footer-navigation;
-    color:#000;
-    background-color: #FFF;
-    text-align: center;
-}
-.mailing-list { 
-    grid-area: mailing-list;
-    color: #FFF;
-    background-color: #000;
-    text-align: center;
-}
-
-#email-input {
-    background-color: rgb(59, 59, 59);
-    font-family: 'Futura LT Book';
-    font-size: 14pt;
-    width: 264px;
-}
-
-.contact { 
-    grid-area: contact;
-    color: #000;
-    background-color: #FFF;
-    text-align: center;
-}
-
-.copyright {
-    font-size: 13px;
-    font-family: 'DIN Next LT Pro';
-}
-
-
- /*
- .linkgrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: stretch;
-    align-items: stretch;
-    column-gap: 20px;
-    row-gap: 20px;
-}
-*/
   
 
 /* grid rules end here */ 
