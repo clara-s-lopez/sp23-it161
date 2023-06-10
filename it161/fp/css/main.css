@@ -183,7 +183,8 @@ a.headerlink {
   .social-media { grid-area: social-media; }
   footer { grid-area: footer; }
 
-
+/*old*/
+/*
  .link-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -193,6 +194,20 @@ a.headerlink {
     justify-items: stretch
     align-items: stretch
  }
+ */
+
+ .link-grid {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 434px;
+    gap: 0px 25px;
+    grid-auto-flow: row;
+    align-content: center;
+    grid-template-areas:
+      ". . .";
+    padding: 20px 0px;
+  }
+  
 
  .footer-grid {
     display: grid;
