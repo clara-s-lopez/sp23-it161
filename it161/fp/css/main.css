@@ -288,7 +288,7 @@ footer {
     grid-template-areas: 
         ". . ."; 
     justify-content: center; 
-    align-content: stretch; 
+    align-content: center;
     justify-items: stretch; 
     align-items: stretch; 
     grid-area: 6 / 1 / 7 / 2;
