@@ -301,8 +301,8 @@ footer {
     height: 200px;
     display: grid; 
     grid-template-columns: 262px 295px 262px; 
-    grid-template-rows: 174px; 
-    gap: 0px 25px; 
+    grid-template-rows: 175px; 
+    gap: 20px 25px; 
     grid-template-areas: 
         "footer-navigation mailing-list contact"; 
     justify-content: center; 
@@ -311,11 +311,21 @@ footer {
     align-items: center; 
     grid-area: 6 / 1 / 7 / 2;
 }
-.footer-navigation { 
-    grid-area: footer-navigation;
+.footer-box {
     color:#000;
     background-color: #FFF;
     text-align: center;
+    font-family: 'Futura LT Book', sans-serif;
+    font-size: 18pt;
+}
+.footer-box a {
+    color: #000;
+}
+.footer-box a:hover {
+    color: #961851;
+}
+.footer-navigation { 
+    grid-area: footer-navigation;
 }
 .footer-navigation ul {
     list-style: none;
@@ -334,9 +344,6 @@ footer {
 }
 .contact { 
     grid-area: contact;
-    color: #000;
-    background-color: #FFF;
-    text-align: center;
 }
 .copyright {
     font-size: 13px;
