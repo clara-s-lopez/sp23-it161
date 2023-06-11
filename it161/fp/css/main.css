@@ -334,12 +334,15 @@ footer {
 }
 .mailing-list { 
     grid-area: mailing-list;
+    height: 175px;
+    width: 295px;
     color: #FFF;
     background-color: #000;
     text-align: center;
 }
 #email-input {
     background-color: rgb(59, 59, 59);
+    border-color:#961851;
     font-family: 'Futura LT Book';
     font-size: 14pt;
     width: 264px;
@@ -393,6 +396,10 @@ footer {
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
     font-family: 'Futura LT Book', sans-serif;
+    font-size: 18px;
+}
+
+li {
     font-size: 18px;
 }
 
