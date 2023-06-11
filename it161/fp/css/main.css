@@ -307,8 +307,8 @@ footer {
         ". . ."; 
     justify-content: center; 
     align-content: center;
-    justify-items: stretch; 
-    align-items: stretch; 
+    justify-items: center; 
+    align-items: center; 
     grid-area: 6 / 1 / 7 / 2;
 }
 .footer-navigation { 
