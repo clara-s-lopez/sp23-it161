@@ -325,6 +325,8 @@ footer {
 }
 .footer-box a:hover {
     color: #961851;
+    background: transparent;
+    text-decoration: none;
 }
 .footer-navigation { 
     grid-area: footer-navigation;
