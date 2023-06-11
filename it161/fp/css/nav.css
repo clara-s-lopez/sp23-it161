@@ -2,13 +2,6 @@
 
 /* Global rules */
 
-/* Fonts */
-@font-face {
-    font-family: 'Futura LT Book';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Futura LT Book'), url('fonts/FuturaLT-Book.woff') format('woff');
-    }
 
  /* Navbar container */
 .topnav {
@@ -31,7 +24,6 @@
     text-decoration: none;
     font-size: 14px;
     font-family: 'Futura LT Book', sans-serif;
-    overflow: hidden;
 }
 
 /*highlight as you hover over a selection*/
