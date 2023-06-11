@@ -150,6 +150,7 @@ a.link-box-header {
     height: 39px;
     width: 251px;
     float: right;
+    margin-right: 20em;
 }
 .header-social-link {
     color: #FFF;
