@@ -170,6 +170,9 @@ a.link-box-header {
     margin: 5px 2px;
     border-radius: 50%;
 }
+.fa-facebook {
+    padding: 20px 23px;
+}
 .fa:hover {
       opacity: 0.7;
 }
