@@ -317,6 +317,9 @@ footer {
     background-color: #FFF;
     text-align: center;
 }
+.footer-navigation ul {
+    list-style: none;
+}
 .mailing-list { 
     grid-area: mailing-list;
     color: #FFF;
