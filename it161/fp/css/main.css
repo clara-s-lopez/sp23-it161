@@ -298,7 +298,7 @@ header {
 }
 
 footer {
-    height: 286px;
+    height: 200px;
     display: grid; 
     grid-template-columns: 262px 295px 262px; 
     grid-template-rows: 174px; 
