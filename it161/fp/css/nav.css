@@ -12,6 +12,7 @@
 
  /* Navbar container */
 .topnav {
+    display: block;
     margin: auto;
     background-color: #FFFFFF;
     overflow: hidden;
