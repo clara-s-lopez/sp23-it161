@@ -312,6 +312,8 @@ footer {
     grid-area: 6 / 1 / 7 / 2;
 }
 .footer-box {
+    width: 262px;
+    height: 175px;
     color:#000;
     background-color: #FFF;
     text-align: center;
