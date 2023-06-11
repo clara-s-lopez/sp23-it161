@@ -145,33 +145,36 @@ a.link-box-header {
 .social-container {
     display: flex;
     justify-content: space-evenly;
-  }
-  #header-social {
+}
+#header-social {
     height: 39px;
     width: 251px;
     float: right;
-  }
-  .header-social-link {
+}
+.header-social-link {
     color: #FFF;
     background-color: #000;
-  }
-  .social-link {
+}
+.social-link {
     color:#961851;
     background-color: #FFF;
-  }
-  .fa {
+}
+.social-link:hover {
+    background-color: #000;
+}
+.fa {
     padding: 20px;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-  }
-   .fa:hover {
+}
+.fa:hover {
       opacity: 0.7;
-  }
-  /* social media icon colors 
-  (going with a monochrome theme)*/
+}
+/* social media icon colors 
+(going with a monochrome theme)*/
 
   /*
    .fa-facebook {
