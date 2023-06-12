@@ -67,6 +67,20 @@ a.link-box-header {
     font-size: 40px;
 }
 
+.body-content {
+    color: #FFF;
+    background-color: rgba(0,0,0,0.75);
+    font-family: 'Futura LT Book';
+}
+
+h2.body-content-header {
+    font-size: 50px;
+}
+
+h2.body-content-subheader {
+    font-size: 32px;
+}
+
 /* start positioning styles */
 
  .margin-auto > div{
