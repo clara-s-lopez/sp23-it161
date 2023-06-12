@@ -256,7 +256,26 @@ header {
     height: 212px;
     color: #000;
     background-color: #FFF; 
+    display: grid; 
+    grid-template-columns: 120px 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "ff-logo header-center social-media-header"
 }
+
+.ff-logo {
+    align-self: stretch; 
+    grid-area: ff-logo; 
+    height: 228px; 
+}
+  .social-media-header {
+    justify-self: stretch; 
+    align-self: center; 
+    grid-area: social-media-header; 
+    height: 39px; 
+}
+  .header-center { grid-area: header-center; }
 
 .gallery { 
     height: 604px; 
