@@ -99,7 +99,8 @@ h2.body-content-subheader {
  }
 */
  /* Allows box to take up full space, ignoring padding/margin */
-* {
+
+ * {
     box-sizing: border-box;
   }
  
@@ -404,7 +405,7 @@ footer {
     align-content: center;
     justify-items: center; 
     align-items: center; 
-    grid-area: 6 / 1 / 7 / 2;
+    grid-area: footer;
 }
 .footer-box {
     width: 262px;
