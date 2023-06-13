@@ -52,19 +52,21 @@ h2.intro-header {
     line-height: 1em;
 }
 
-a.introbutton {
-    font-family: Sacramento, cursive;
-    font-size: 40px;
-}
-
-a.learnmore {
+a.learn-more {
     font-family: Sacramento, cursive;
     font-size: 27px;
+    color:#FFF;
 }
 
 a.link-box-header {
     font-family: Sacramento, cursive;
     font-size: 40px;
+    color: #FFF;
+}
+
+a.link-box-header:hover {
+    background: transparent;
+    color: #961851;
 }
 
 .body-content {
@@ -160,12 +162,6 @@ h2.body-content-subheader {
     display: flex;
     justify-content: space-evenly;
 }
-#header-social {
-    height: 39px;
-    width: 251px;
-    float: right;
-    margin-right: 20em;
-}
 .header-social-link {
     color: #FFF;
     background-color: #000;
@@ -257,25 +253,44 @@ header {
     color: #000;
     background-color: #FFF; 
     display: grid; 
-    grid-template-columns: 120px 1fr 1fr; 
+    grid-template-columns: 980px; 
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
     grid-template-areas: 
-      "ff-logo header-center social-media-header"
+      "content";
+    justify-items: center;
+}
+
+.content {
+    width: 980px;
+    display: grid; 
+    grid-template-columns: 120px 1fr 251px; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "ff-logo header-center header-social"; 
+    justify-self: center; 
+    grid-area: content; 
+    height: 212px; 
 }
 
 .ff-logo {
     align-self: stretch; 
     grid-area: ff-logo; 
-    height: 228px; 
+    height: 228px;
+    width: 120px;
 }
-  .social-media-header {
+.header-center {
     justify-self: stretch; 
+    align-self: start; 
+    grid-area: header-center; 
+}
+.header-social {
     align-self: center; 
-    grid-area: social-media-header; 
+    grid-area: header-social; 
+    width: 251px; 
     height: 39px; 
 }
-  .header-center { grid-area: header-center; }
 
 .gallery { 
     height: 604px; 
@@ -476,14 +491,14 @@ footer {
         float: right;
         margin-left: 2em;
     }
-
+/*
     picture.ff-logo img {
         height: 120px;
         width: 228px;
         float:left;
         vertical-align: baseline;
     }
-    
+*/    
 }
 
 /* TABLET */
