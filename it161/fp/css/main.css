@@ -58,6 +58,11 @@ a.learn-more {
     color:#FFF;
 }
 
+.learn-more:hover {
+    color: #961851;
+    background: transparent;
+}
+
 a.link-box-header {
     font-family: Sacramento, cursive;
     font-size: 40px;
