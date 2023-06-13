@@ -426,10 +426,12 @@ footer {
     text-decoration: none;
 }
 .footer-navigation { 
-    grid-area: footer-navigation;
-}
+    grid-area: footer-navigation;}
 .footer-navigation ul {
     list-style: none;
+}
+.footer-navigation li {
+    font-size: 18px;
 }
 .mailing-list { 
     grid-area: mailing-list;
@@ -451,6 +453,7 @@ footer {
     border-color: #961851;
     color: #000;
     width: 264px;
+    height: 39px;
     border-top-width: 1.6px;
     font-size: 13.333px;
 }
@@ -503,10 +506,6 @@ footer {
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
     font-family: 'Futura LT Book', sans-serif;
-    font-size: 18px;
-}
-
-li {
     font-size: 18px;
 }
 
