@@ -31,15 +31,15 @@ h1 {
     color: #000;
     font-weight: normal;
     margin: auto;
-    line-height: 2.5em;
+    line-height: 45px;
 }
 
-.furiaflamenca {
+.furia-flamenca {
     font-family: 'DIN Next LT Pro';
     font-size: 39px;
 }
 
-.estelavelez {
+.estela-velez {
     font-family: 'DidoteTextW01-Italic';
     font-size: 30px;
 }
@@ -291,7 +291,8 @@ header {
     grid-area: header-center; 
 }
 */
-.furia-flamenca {
+.furia-flamenca-area {
+    height: 94px;
     line-height 45px;
     justify-self: start; 
     align-self: start;  
@@ -301,7 +302,7 @@ header {
 .header-social {
     grid-area: 2 / 3 / 3 / 4;
     justify-self: stretch; 
-    align-self: center; 
+    align-self: start; 
     grid-area: header-social;
     width: 251px; 
     height: 39px; 
