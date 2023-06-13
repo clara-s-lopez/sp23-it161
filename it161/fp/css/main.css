@@ -334,7 +334,7 @@ header {
 .intro-text { grid-area: intro-text; }
 .intro-photo { grid-area: intro-photo; }
 .intro-learn-more { grid-area: intro-learn-more; }
-.intro-artistic-director { grid-area: intro-artistic-director; 
+.intro-artistic-director { grid-area: intro-artistic-director; }
 
 .links { 
     height: 474px; 
