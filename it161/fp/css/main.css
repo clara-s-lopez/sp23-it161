@@ -321,6 +321,12 @@ header {
 .navbar {
     align-self: end;
     grid-area: navbar
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-auto-columns: 157px; 
+    gap: 0px 0px; 
+    justify-self: stretch; 
+    align-self: end; 
 }
 
 .gallery { 
