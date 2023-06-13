@@ -319,17 +319,18 @@ header {
 
 .introduction {
     height: 451px;
-    padding: 20px 5px;
+    padding: 20px 10px;
     color: #000;
     background-color: #FFFFFF;
     display: grid; 
-    grid-template-columns: 307px 307px 1fr; 
+    grid-template-columns: 307px 307px 232px; 
     grid-template-rows: 240px 56px; 
     gap: 50px 20px; 
     grid-template-areas: 
     "intro-text intro-text intro-photo"
     "intro-learn-more intro-artistic-director intro-photo"; 
-    align-content: center; 
+    align-content: center;
+    justify-content: center; 
 }
 .intro-text { grid-area: intro-text; }
 .intro-photo { grid-area: intro-photo; }
