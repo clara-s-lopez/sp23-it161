@@ -262,23 +262,31 @@ header {
     grid-template-rows: 1fr; 
     gap: 0px 0px; 
     grid-template-areas: 
-      "content";
+      "header-content";
     justify-items: center;
 }
 
 .header-content {
-    width: 980px;
+    width: 80%;
     height: 212px; 
     display: grid; 
     grid-template-columns: 120px 1fr 251px; 
-    grid-template-rows: 94px 1fr; 
+    grid-template-rows: 94px 39px 1fr; 
     gap: 0px 0px; 
-    justify-self: center; 
-    grid-area: content; 
+    grid-template-areas: 
+    "ff-logo furia-flamenca-area furia-flamenca-area"
+    "ff-logo . header-social"
+    "ff-logo navbar navbar"; 
+    justify-content: center; 
+    align-content: stretch; 
+    justify-items: center; 
+    align-items: stretch;
+    justify-self: center;
+    align-self: stretch;
+    grid-area: header-content; 
 }
 
 .ff-logo {
-    grid-area: 1 / 1 / 2 / 2; 
     align-self: stretch; 
     grid-area: ff-logo; 
     height: 228px;
@@ -293,15 +301,15 @@ header {
 */
 .furia-flamenca-area {
     height: 94px;
-    width: 850px;
+    width: auto;
     line-height 45px;
     justify-self: start; 
-    align-self: start;  
-    grid-area: 1 / 2 / 2 / 4; 
+    align-self: start;
+    grid-area: furia-flamenca-area; 
 }
 
 .header-social {
-    grid-area: 2 / 3 / 3 / 4;
+    grid-area: header-social;
     justify-self: stretch; 
     align-self: start; 
     grid-area: header-social;
@@ -309,8 +317,8 @@ header {
     height: 39px; 
 }
 .navbar {
-    align-self: end; 
-    grid-area: 2 / 2 / 3 / 4; 
+    align-self: end;
+    grid-area: navbar
 }
 
 .gallery { 
