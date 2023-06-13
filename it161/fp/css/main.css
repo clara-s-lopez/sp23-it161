@@ -89,7 +89,7 @@ h2.body-content-subheader {
 }
 
 /* start positioning styles */
-
+/*
  .margin-auto > div{
     color: black;
     margin:auto;
@@ -97,7 +97,7 @@ h2.body-content-subheader {
     background-color:beige;
     text-align:center;
  }
-
+*/
  /* Allows box to take up full space, ignoring padding/margin */
 * {
     box-sizing: border-box;
@@ -266,7 +266,7 @@ header {
     justify-items: center;
 }
 
-.content {
+.header-content {
     width: 980px;
     height: 212px; 
     display: grid; 
@@ -511,7 +511,7 @@ footer {
     }
     
     h1 {
-        width: 80%;
+        width: 850px;
         padding-left: 1%;
     }
     
