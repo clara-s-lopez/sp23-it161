@@ -330,6 +330,8 @@ header {
     text-align: center;
     box-sizing: border-box;
     height: 100%;
+    align-content: center;
+    align-items: center;
 }
 
 .social-media { 
