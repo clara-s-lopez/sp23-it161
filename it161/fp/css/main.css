@@ -329,7 +329,7 @@ header {
     grid-template-areas: 
     "intro-text intro-text intro-photo"
     "intro-learn-more intro-artistic-director intro-photo"; 
-  align-content: center; 
+    align-content: center; 
 }
 .intro-text { grid-area: intro-text; }
 .intro-photo { grid-area: intro-photo; }
