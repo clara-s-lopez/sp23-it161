@@ -268,33 +268,46 @@ header {
 
 .content {
     width: 980px;
+    height: 212px; 
     display: grid; 
     grid-template-columns: 120px 1fr 251px; 
-    grid-template-rows: 1fr; 
+    grid-template-rows: 96px 1fr; 
     gap: 0px 0px; 
-    grid-template-areas: 
-      "ff-logo header-center header-social"; 
     justify-self: center; 
     grid-area: content; 
-    height: 212px; 
 }
 
 .ff-logo {
+    grid-area: 1 / 1 / 2 / 2; 
     align-self: stretch; 
     grid-area: ff-logo; 
     height: 228px;
     width: 120px;
 }
+/*
 .header-center {
     justify-self: stretch; 
     align-self: start; 
     grid-area: header-center; 
 }
+*/
+.furia-flamenca {
+    justify-self: start; 
+    align-self: start;  
+    grid-area: 1 / 2 / 2 / 4; 
+}
+
 .header-social {
+    grid-area: 2 / 3 / 3 / 4;
+    justify-self: stretch; 
     align-self: center; 
-    grid-area: header-social; 
+    grid-area: header-social;
     width: 251px; 
     height: 39px; 
+}
+.navbar {
+    align-self: end; 
+    grid-area: 2 / 2 / 3 / 4; 
 }
 
 .gallery { 
