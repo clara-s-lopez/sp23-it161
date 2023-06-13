@@ -239,7 +239,7 @@ h2.body-content-subheader {
       "header" 212px
       "gallery" 604px
       "introduction" 451px
-      "links" 537px
+      "links" 474px
       "social-media" 187px
       "footer" 286px
       / 100%;
@@ -308,7 +308,7 @@ header {
 }
 
 .links { 
-    height: 537px; 
+    height: 474px; 
 }
 .link-grid {  
     display: grid;
