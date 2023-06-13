@@ -322,7 +322,19 @@ header {
     padding: 20px 5px;
     color: #000;
     background-color: #FFFFFF;
+    display: grid; 
+    grid-template-columns: 307px 307px 1fr; 
+    grid-template-rows: 240px 56px; 
+    gap: 50px 20px; 
+    grid-template-areas: 
+    "intro-text intro-text intro-photo"
+    "intro-learn-more intro-artistic-director intro-photo"; 
+  align-content: center; 
 }
+.intro-text { grid-area: intro-text; }
+.intro-photo { grid-area: intro-photo; }
+.intro-learn-more { grid-area: intro-learn-more; }
+.intro-artistic-director { grid-area: intro-artistic-director; 
 
 .links { 
     height: 474px; 
@@ -510,7 +522,8 @@ footer {
         width: 850px;
         padding-left: 1%;
     }
-    
+    /*Don't need this with intro subgrid*/
+ /*   
     picture.introduction-image img {
         width: 232px;
         height: 336px;
@@ -518,6 +531,7 @@ footer {
         float: right;
         margin-left: 2em;
     }
+*/
 /*
     picture.ff-logo img {
         height: 120px;
