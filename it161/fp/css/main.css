@@ -324,8 +324,12 @@ header {
     grid-area: navbar;
     display: grid; 
     grid-auto-flow: column; 
-    grid-auto-columns: minmax(157px); 
+    grid-auto-columns: 157px;
     gap: 0px 0px; 
+    justify-content: stretch; 
+    align-content: center; 
+    justify-items: stretch; 
+    align-items: center; 
     justify-self: stretch; 
     align-self: end; 
 }
