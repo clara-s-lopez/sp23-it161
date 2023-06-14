@@ -343,7 +343,7 @@ header {
     align-content: center;
 }
 
-.galleria { 
+#galleria { 
     width: 980px; 
     height: 558px; 
     background: #000;

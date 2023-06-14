@@ -73,7 +73,7 @@
    <main class="wrapper">
     <section class="gallery">
       <!-- https://galleriajs.github.io/docs/getting_started/beginners_guide.html#complete-code -->
-      <div class="galleria">
+      <div id="galleria">
         <img src="https://placehold.co/821x547">
         <img src="https://placehold.co/821x547">
         <img src="https://placehold.co/821x547">
@@ -81,7 +81,11 @@
       <script>
         (function() {
             Galleria.loadTheme('galleria/src/themes/twelve/galleria.twelve.js');
-                    Galleria.run('.galleria');
+                    Galleria.run('#galleria', {
+                      transition: 'fade',
+                      imageCrop: 'true',
+                      autoplay: 10000 
+                    });
           }());
       </script>
     </section>
