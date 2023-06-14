@@ -304,7 +304,7 @@ header {
 .furia-flamenca-area {
     height: 94px;
     width: auto;
-    line-height 45px;
+    line-height: 45px;
     justify-self: start; 
     align-self: start;
     grid-area: furia-flamenca-area; 
