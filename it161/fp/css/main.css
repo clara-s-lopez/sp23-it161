@@ -251,6 +251,7 @@ h2.body-content-subheader {
       "footer" 286px
       / 100%;
     gap: 10px;
+    justify-items: center;
 }
   
 header {
