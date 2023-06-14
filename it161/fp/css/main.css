@@ -321,7 +321,6 @@ header {
     height: 39px; 
 }
 .navbar {
-    align-self: end;
     grid-area: navbar;
     display: grid; 
     grid-auto-flow: column; 
