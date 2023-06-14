@@ -332,9 +332,9 @@ header {
     align-content: center; 
     justify-items: stretch; 
     align-items: center; 
+    */
     justify-self: stretch; 
-    align-self: end;
-    */ 
+    align-self: end; 
 }
 
 .gallery { 
