@@ -101,9 +101,9 @@ h2.body-content-subheader {
 */
  /* Allows box to take up full space, ignoring padding/margin */
 
- * {
+* {
     box-sizing: border-box;
-  }
+}
  
  
  /* Create two equal columns that floats next to each other */
@@ -113,13 +113,13 @@ h2.body-content-subheader {
     width: 50%;
     padding: 10px;
     min-height: 300px; /* Can be removed. Only for demonstration */
-  }
+}
    /* Clear floats after the columns */
-  .my-row:after {
+.my-row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
   
   @media all and (max-width:500px) {
@@ -165,21 +165,26 @@ h2.body-content-subheader {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 */
+
 .social-container {
     display: flex;
     justify-content: space-evenly;
 }
+
 .header-social-link {
     color: #FFF;
     background-color: #000;
 }
+
 .social-link {
     color:#961851;
     background-color: #FFF;
 }
+
 .social-link:hover {
     background-color: #000;
 }
+
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -188,6 +193,7 @@ h2.body-content-subheader {
     margin: 5px 2px;
     border-radius: 50%;
 }
+
 .fa-facebook {
     padding: 20px 23px;
 }
@@ -226,13 +232,13 @@ h2.body-content-subheader {
 
 .flexible img{
     width:100%;
- }
+}
  
  
- .flexible{
+.flexible{
     display: flex;
     justify-content: space-evenly;
- }
+}
  
  
  /* flexible image rules end here */
@@ -296,6 +302,7 @@ header {
     height: 228px;
     width: 120px;
 }
+
 /*
 .header-center {
     justify-self: stretch; 
@@ -303,6 +310,7 @@ header {
     grid-area: header-center; 
 }
 */
+
 .furia-flamenca-area {
     height: 94px;
     width: auto;
