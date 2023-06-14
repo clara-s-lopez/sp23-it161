@@ -325,7 +325,7 @@ header {
     grid-area: navbar;
     display: grid; 
     grid-auto-flow: column; 
-    grid-auto-columns: 157px; 
+    grid-auto-columns: minmax(157px); 
     gap: 0px 0px; 
     justify-self: stretch; 
     align-self: end; 
