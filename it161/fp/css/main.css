@@ -332,8 +332,26 @@ header {
 }
 
 .gallery { 
-    height: 604px; 
+    height: 604px;
+    display: grid;
+    grid-template-columns: 980px;
+    grid-template-rows: 558px;
+    gap: 0px 0px;
+    grid-template-areas: 
+    "galleria";
+    justify-content: center;
+    align-content: center;
 }
+
+.galleria { 
+    width: 980px; 
+    height: 558px; 
+    background: #000;
+    grid-area: galleria;
+    justify-self: center;
+    align-content: center;
+}
+
 
 .introduction {
     height: 451px;
