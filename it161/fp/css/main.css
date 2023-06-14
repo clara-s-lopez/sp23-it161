@@ -251,7 +251,7 @@ h2.body-content-subheader {
       "footer" 286px
       / 100%;
     gap: 10px;
-    justify-items: center;
+    justify-items: stretch;
 }
   
 header {
@@ -267,6 +267,7 @@ header {
     grid-template-areas: 
       "header-content";
     justify-items: center;
+    justify-content: center;
 }
 
 .header-content {
