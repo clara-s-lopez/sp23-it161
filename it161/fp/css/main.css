@@ -322,6 +322,8 @@ header {
 }
 .navbar {
     grid-area: navbar;
+    /* do I need an internal grid for positioning links?*/
+    /*
     display: grid; 
     grid-auto-flow: column; 
     grid-auto-columns: 157px;
@@ -331,7 +333,8 @@ header {
     justify-items: stretch; 
     align-items: center; 
     justify-self: stretch; 
-    align-self: end; 
+    align-self: end;
+    */ 
 }
 
 .gallery { 
