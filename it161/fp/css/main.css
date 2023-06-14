@@ -320,7 +320,7 @@ header {
 }
 .navbar {
     align-self: end;
-    grid-area: navbar
+    grid-area: navbar;
     display: grid; 
     grid-auto-flow: column; 
     grid-auto-columns: 157px; 
