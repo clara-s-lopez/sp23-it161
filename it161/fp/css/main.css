@@ -270,7 +270,7 @@ header {
 }
 
 .header-content {
-    width: 80%;
+    width: 90%;
     height: 212px; 
     display: grid; 
     grid-template-columns: 120px 1fr 251px; 
