@@ -279,10 +279,10 @@ header {
     "ff-logo furia-flamenca-area furia-flamenca-area"
     "ff-logo . header-social"
     "ff-logo navbar navbar"; 
-    justify-content: center; 
+    justify-content: stretch; 
     align-content: stretch; 
     justify-items: center; 
-    align-items: stretch;
+    align-items: center;
     justify-self: center;
     align-self: center;
     grid-area: header-content; 
