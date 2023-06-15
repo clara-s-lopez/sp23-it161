@@ -27,54 +27,7 @@ body{
     background: #C92E24;
 }
 
-h1 {
-    color: #000;
-    font-weight: normal;
-    margin: 0px;
-    line-height: 40px;
-    overflow-wrap: break-word;
-}
-
-.furia-flamenca {
-    font-family: 'DIN Next LT Pro';
-    font-size: 39px;
-}
-
-.estela-velez {
-    font-family: 'DidoteTextW01-Italic';
-    font-size: 30px;
-}
-
-h2.intro-header {
-    font-family: 'Futura LT Book', sans-serif;
-    font-weight: normal;
-    font-size: 28px;
-    margin-left: 1em;
-    line-height: 1em;
-}
-
-a.learn-more {
-    font-family: Sacramento, cursive;
-    font-size: 27px;
-    color:#FFF;
-}
-
-.learn-more:hover {
-    color: #961851;
-    background: transparent;
-}
-
-a.link-box-header {
-    font-family: Sacramento, cursive;
-    font-size: 40px;
-    color: #FFF;
-}
-
-a.link-box-header:hover {
-    background: transparent;
-    color: #961851;
-}
-
+/* start topic page styles */
 .body-content {
     color: #FFF;
     background-color: rgba(0,0,0,0.75);
@@ -88,6 +41,7 @@ h2.body-content-header {
 h2.body-content-subheader {
     font-size: 32px;
 }
+/* end topic page styles */
 
 /* start positioning styles */
 /*
@@ -127,105 +81,6 @@ h2.body-content-subheader {
         width: 100%;
       }
  }
- 
- /* Social media link rules */
-
- /*
- .fa {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-   .fa:hover {
-      opacity: 0.7;
-  }
-   .fa-facebook {
-    background: #000;
-    color: white;
-    padding: 20px 25px;
-  }
-   .fa-twitter {
-    background: #000;
-    color: white;
-  }
-   .fa-youtube {
-    background: #000;
-    color: white;
-  }
-   .fa-instagram {
-    background: #000;
-    color: white;
-  }
-   .fa-pinterest {
-    background: #000;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-*/
-
-.social-container {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.header-social-link {
-    color: #FFF;
-    background-color: #000;
-}
-
-.social-link {
-    color:#961851;
-    background-color: #FFF;
-}
-
-.social-link:hover {
-    background-color: #000;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-}
-
-.fa-facebook {
-    padding: 20px 23px;
-}
-
-/* social media icon colors 
-(going with a monochrome theme)*/
-
-  /*
-   .fa-facebook {
-    background: #3B5998;
-    color: white;
-    padding: 20px 25px;
-  }
-   .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-   .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-   .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-   .fa-pinterest {
-    background: #e60023;
-    color: white;
-  }
-  */
-
-
 
   /* flexible image rules start here */
 
@@ -303,14 +158,6 @@ header {
     width: 120px;
 }
 
-/*
-.header-center {
-    justify-self: stretch; 
-    align-self: start; 
-    grid-area: header-center; 
-}
-*/
-
 .furia-flamenca-area {
     height: 94px;
     width: auto;
@@ -344,6 +191,64 @@ header {
     */
     justify-self: stretch; 
     align-self: end; 
+}
+
+h1 {
+    color: #000;
+    font-weight: normal;
+    margin: 0px;
+    line-height: 40px;
+    overflow-wrap: break-word;
+}
+
+.furia-flamenca {
+    font-family: 'DIN Next LT Pro';
+    font-size: 39px;
+}
+
+.estela-velez {
+    font-family: 'DidoteTextW01-Italic';
+    font-size: 30px;
+}
+
+h2.intro-header {
+    font-family: 'Futura LT Book', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-left: 1em;
+    line-height: 1em;
+}
+
+.social-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-social-link {
+    color: #FFF;
+    background-color: #000;
+}
+
+.social-link {
+    color:#961851;
+    background-color: #FFF;
+}
+
+.social-link:hover {
+    background-color: #000;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    padding: 20px 23px;
 }
 
 .gallery { 
@@ -426,6 +331,28 @@ header {
     height: 100%;
     align-content: center;
     align-items: center;
+}
+
+a.link-box-header {
+    font-family: Sacramento, cursive;
+    font-size: 40px;
+    color: #FFF;
+}
+
+a.link-box-header:hover {
+    background: transparent;
+    color: #961851;
+}
+
+a.learn-more {
+    font-family: Sacramento, cursive;
+    font-size: 27px;
+    color:#FFF;
+}
+
+.learn-more:hover {
+    color: #961851;
+    background: transparent;
 }
 
 .social-media { 
