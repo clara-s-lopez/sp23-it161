@@ -6,7 +6,8 @@
  /* Navbar container */
 .topnav {
     display: block;
-    margin: auto;
+    /* margin: auto; */
+    margin: inherit;
     background-color: #FFFFFF;
     overflow: hidden;
     position: -webkit-sticky;
