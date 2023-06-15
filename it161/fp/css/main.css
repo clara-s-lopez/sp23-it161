@@ -309,6 +309,11 @@ h2.intro-header {
     color: #000;
     z-index: 1;
 }
+
+.link-turns-pink:hover {
+    color: #961851;
+    background: transparent;
+}
 /* end introduction rules */
 
 /* start links rules */
@@ -358,10 +363,6 @@ a.learn-more {
     color:#FFF;
 }
 
-.learn-more:hover {
-    color: #961851;
-    background: transparent;
-}
 /* end links rules */
 
 /* start social-media rules */
