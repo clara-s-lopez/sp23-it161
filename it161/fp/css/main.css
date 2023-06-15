@@ -114,7 +114,8 @@ h2.body-content-subheader {
     gap: 10px;
     justify-items: stretch;
 }
-  
+
+/* start header rules */
 header {
     font-size: 0.95em;
     line-height: 1.5em;
@@ -251,6 +252,9 @@ h2.intro-header {
     padding: 20px 23px;
 }
 
+/* end header rules */
+
+/* start gallery rules */
 .gallery { 
     height: 604px;
     display: grid;
@@ -271,7 +275,9 @@ h2.intro-header {
     justify-self: center;
     align-content: center;
 }
+/* end gallery rules */
 
+/* start introduction rules */
 .introduction {
     height: 451px;
     padding: 20px 10px;
@@ -303,7 +309,9 @@ h2.intro-header {
     color: #000;
     z-index: 1;
 }
+/* end introduction rules */
 
+/* start links rules */
 .links { 
     height: 474px; 
 }
@@ -354,7 +362,9 @@ a.learn-more {
     color: #961851;
     background: transparent;
 }
+/* end links rules */
 
+/* start social-media rules */
 .social-media { 
     height: 187px;
     background-color: #961851;
@@ -369,7 +379,9 @@ a.learn-more {
     color: #FFF;
     vertical-align: baseline;
 }
+/* end social-media rules */
 
+/* start footer rules */
 footer {
     height: 200px;
     display: grid; 
@@ -453,6 +465,7 @@ footer {
     font-size: 13px;
     font-family: 'DIN Next LT Pro';
 }
+/* end footer rules */
 
 /*old*/
 /*
