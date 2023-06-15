@@ -383,7 +383,10 @@ header {
     justify-content: center; 
 }
 
-.intro-text { grid-area: intro-text; }
+.intro-text { 
+    grid-area: intro-text;
+    z-index: 1; 
+}
 .intro-photo { grid-area: intro-photo; }
 .intro-learn-more { grid-area: intro-learn-more; }
 .intro-artistic-director { grid-area: intro-artistic-director; }
@@ -392,6 +395,7 @@ header {
     font-size: 40px;
     text-align: center;
     color: #000;
+    z-index: 1;
 }
 
 .links { 
