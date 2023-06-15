@@ -169,6 +169,7 @@ header {
 }
 
 .header-social {
+    font-size: 20px;
     grid-area: header-social;
     justify-self: stretch; 
     align-self: start; 
