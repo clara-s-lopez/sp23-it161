@@ -53,8 +53,8 @@ h2.body-content-subheader {
     text-align:center;
  }
 */
- /* Allows box to take up full space, ignoring padding/margin */
 
+ /* Allows box to take up full space, ignoring padding/margin */
 * {
     box-sizing: border-box;
 }
