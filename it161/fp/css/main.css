@@ -387,6 +387,7 @@ header {
     grid-area: intro-text;
     z-index: 1; 
 }
+
 .intro-photo { grid-area: intro-photo; }
 .intro-learn-more { grid-area: intro-learn-more; }
 .intro-artistic-director { grid-area: intro-artistic-director; }
