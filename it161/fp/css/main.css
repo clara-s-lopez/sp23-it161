@@ -249,7 +249,7 @@ header {
     grid-area: navbar;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: end;
   }
 
 
