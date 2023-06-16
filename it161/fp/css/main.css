@@ -122,7 +122,7 @@ h2.body-content-subheader {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto;
-    justify-items: center;
+    justify-items: stretch;
   }
 
 /* start header rules */
@@ -157,6 +157,7 @@ header {
     grid-template-areas: 
     "header-content";
     justify-items: center;
+    justify-content: center;
     position: sticky;
     top: 0;
     z-index: 100;
