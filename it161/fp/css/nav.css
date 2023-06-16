@@ -19,7 +19,7 @@
 
 .topnav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: end;
   }
 
@@ -46,7 +46,8 @@
     text-decoration: none;
     font-size: 14px;
     font-family: 'Futura LT Book', sans-serif;
-  }
+    min-width: 150px; /* find some other way to get text on one line */
+}
 
 /*highlight as you hover over a selection*/
 .topnav a.hover {
