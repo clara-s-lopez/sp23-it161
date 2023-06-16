@@ -4,9 +4,10 @@
 
 
  /* Navbar container */
+/*
 .topnav {
     display: block;
-    /* margin: auto; */
+    /* margin: auto; *//*
     margin: inherit;
     background-color: #FFFFFF;
     overflow: hidden;
@@ -14,8 +15,16 @@
     position: sticky;
     top: 0;
 }
+*/
+
+.topnav {
+    display: flex;
+    justify-content: center;
+  }
+
 
 /* Links inside the navbar */
+/*
 .topnav a {
     float: left;
     display: block;
@@ -26,6 +35,17 @@
     font-size: 14px;
     font-family: 'Futura LT Book', sans-serif;
 }
+*/
+
+.topnav a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Futura LT Book', sans-serif;
+  }
 
 /*highlight as you hover over a selection*/
 .topnav a.hover {
@@ -40,10 +60,15 @@
 /* https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 
 /* Dropdown container - needed to position the dropdown content */
+/*
 .dropdown {
     float: left;
     overflow: hidden;
 }
+*/
+.dropdown {
+    position: relative;
+  }
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
@@ -58,19 +83,31 @@
 }
 
 /* Style the dropdown content (hidden by default) */
-.dropdown-content {
-    display: none;
+/*.dropdown-content {
+    display: none;*/
     /* uncomment if you want dropdown menu to appear on top of dropdown button */
     /*
     position: absolute;
-    */
+    *//*
     position: relative;
     background-color: #fff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+*/
 
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
 /* Style the links inside the dropdown */
 .dropdown-content a {
     float: none;
@@ -84,6 +121,7 @@
 /* Change text to fuschia on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #fff;
+    /* background: transparent; */
     color: #961851;
 }
 
