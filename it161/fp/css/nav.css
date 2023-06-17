@@ -4,18 +4,6 @@
 
 
  /* Navbar container */
-/*
-.topnav {
-    display: block;
-    /* margin: auto; *//*
-    margin: inherit;
-    background-color: #FFFFFF;
-    overflow: hidden;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
-*/
 
 .topnav {
     display: flex;
@@ -25,18 +13,6 @@
 
 
 /* Links inside the navbar */
-/*
-.topnav a {
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 14px;
-    font-family: 'Futura LT Book', sans-serif;
-}
-*/
 
 .topnav a {
     display: block;
@@ -61,12 +37,7 @@
 /* https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 
 /* Dropdown container - needed to position the dropdown content */
-/*
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-*/
+
 .dropdown {
     position: relative;
   }
@@ -82,21 +53,6 @@
     font-family: 'Futura LT Book', sans-serif;
     margin: 0;
 }
-
-/* Style the dropdown content (hidden by default) */
-/*.dropdown-content {
-    display: none;*/
-    /* uncomment if you want dropdown menu to appear on top of dropdown button */
-    /*
-    position: absolute;
-    *//*
-    position: relative;
-    background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-*/
 
 .dropdown-content {
     position: absolute;
