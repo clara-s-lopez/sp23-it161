@@ -94,7 +94,7 @@
 }
 
 
-/* Responsive rules - apply when screen width is less than 1200px */
+/* Responsive rules - apply when screen width is less than 980px */
 
 @media screen and (max-width: 979px) {
     .topnav a:not(:first-child), .dropdown .dropbtn {
