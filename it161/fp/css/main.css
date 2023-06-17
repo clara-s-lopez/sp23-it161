@@ -261,6 +261,8 @@ header {
 .navbar {
     /* Use only for placing inside header-content */
     grid-area: navbar;
+    justify-self: stretch; 
+    align-self: end; 
   }
 
 
