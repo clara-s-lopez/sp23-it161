@@ -19,7 +19,7 @@
 
 .topnav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-basis: 150px;
     align-items: end;
 }
@@ -106,7 +106,7 @@
     left: 0;
     display: none;
     background-color: #fff;
-    min-width: 160px;
+    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
