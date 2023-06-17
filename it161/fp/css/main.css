@@ -534,6 +534,8 @@ footer {
 
 /* Responsive rules */
 
+/* https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
+
 /* DESKTOP */
 @media all and (min-width:1008px) {
     main.wrapper {
