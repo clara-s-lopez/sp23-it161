@@ -20,7 +20,6 @@
 .topnav {
     display: flex;
     justify-content: space-between;
-    flex-basis: 150px;
     align-items: end;
 }
 
