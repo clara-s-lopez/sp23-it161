@@ -44,15 +44,6 @@ h2.body-content-subheader {
 /* end topic page styles */
 
 /* start positioning styles */
-/*
- .margin-auto > div{
-    color: black;
-    margin:auto;
-    width:50%;
-    background-color:beige;
-    text-align:center;
- }
-*/
 
  /* Allows box to take up full space, ignoring padding/margin */
 * {
@@ -100,23 +91,6 @@ h2.body-content-subheader {
 
  /* grid rules start here */
 
- /*
-.layout {
-    width: 100%;
-    display: grid;
-    grid:
-      "header" 212px
-      "gallery" 604px
-      "introduction" 451px
-      "links" 474px
-      "social-media" 187px
-      "footer" 286px
-      / 100%;
-    gap: 10px;
-    justify-items: stretch;
-}
-*/
-
 .layout {
     width: 100%;
     display: grid;
@@ -138,23 +112,6 @@ h2.body-content-subheader {
   }
 
 /* start header rules */
-/*
-header {
-    font-size: 0.95em;
-    line-height: 1.5em;
-    height: 212px;
-    color: #000;
-    background-color: #FFF; 
-    display: grid; 
-    grid-template-columns: 980px; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "header-content";
-    justify-items: center;
-    justify-content: center;
-}
-*/
 
 header {
     font-size: 0.95em;
@@ -172,27 +129,7 @@ header {
     justify-content: center;
     z-index: 100;
   }
-/*
-.header-content {
-    width: 100%;
-    height: 212px; 
-    display: grid; 
-    grid-template-columns: 120px 1fr 251px; 
-    grid-template-rows: 94px 39px 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-    "ff-logo furia-flamenca-area furia-flamenca-area"
-    "ff-logo . header-social"
-    "ff-logo navbar navbar"; 
-    justify-content: stretch; 
-    align-content: stretch; 
-    justify-items: center; 
-    align-items: center;
-    justify-self: center;
-    align-self: center;
-    grid-area: header-content; 
-}
-*/
+
 .header-content {
     grid-area: header-content; 
     width: 100%;
@@ -235,24 +172,7 @@ header {
     height: 39px;
     z-index: 2;     /* display in front of white background of .topnav a:hover */
 }
-/*
-.navbar {
-    grid-area: navbar;
-    /* do I need an internal grid for positioning links?*/
-    /*
-    display: grid; 
-    grid-auto-flow: column; 
-    grid-auto-columns: 157px;
-    gap: 0px 0px; 
-    justify-content: stretch; 
-    align-content: center; 
-    justify-items: stretch; 
-    align-items: center; 
-    *//*
-    justify-self: stretch; 
-    align-self: end; 
-}
-*/
+
 .navigation {
     display: grid; 
     grid-template-columns: 980px; 
@@ -268,6 +188,7 @@ header {
     background-color: #FFF;
     z-index: 20;
   }
+
   .nav-content {
     display: grid; 
     grid-template-columns: 120px 1fr; 
@@ -565,21 +486,7 @@ footer {
 }
 /* end footer rules */
 
-/*old*/
-/*
- .link-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 40px
-    grid-row-gap: 20px
-    justify-items: stretch
-    align-items: stretch
- }
- */
-  
-
-/* grid rules end here */ 
+/* end grid rules */ 
  
 
 /* end positioning styles */
