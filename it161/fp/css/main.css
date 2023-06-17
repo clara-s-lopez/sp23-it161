@@ -578,13 +578,13 @@ footer {
         width: 90%;
         padding-left: 1%;
     }
-    
+    /*
     picture.introduction-image img {
         width: 50%;
         float: right;
         margin-left: 1em;
     }
-
+    */
 }
 
 /* PHONE */
@@ -597,9 +597,9 @@ footer {
         width: 100%;
         padding-left: 1%;
     }
-    
+    /*
     picture.introduction-image img {
         width: 100%;
     }
-    
+    */
 }
