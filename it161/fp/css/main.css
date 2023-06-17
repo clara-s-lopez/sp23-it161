@@ -203,7 +203,7 @@ header {
     /* Use only for placing inside header-content */
     grid-area: navbar;
     justify-self: stretch; 
-    align-self: end; 
+    align-self: end;    
   }
         
 /* sticks to top of page when scrolling */
