@@ -8,7 +8,7 @@ document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.or
  document.getElementById("this-year").innerHTML = thisYear;
 
 //manages mobile nav 
-function myFunction() {
+function toggleMenu() {
     var x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
         x.className += " responsive";
