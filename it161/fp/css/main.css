@@ -125,14 +125,15 @@ h2.body-content-subheader {
     grid-template-rows: auto 1fr auto;
     */
     grid:
-        "header" 212px
+        "header" 161px
+        "navigation" 51px
         "gallery" 604px
         "introduction" 451px
         "links" 474px
         "social-media" 187px
         "footer" 286px
         / 100%;
-    gap: 10px;
+    gap: 0px;
     justify-items: stretch;
   }
 
@@ -158,7 +159,7 @@ header {
 header {
     font-size: 0.95em;
     line-height: 1.5em;
-    height: 212px;
+    height: 161px;
     color: #000;
     background-color: #fff; 
     display: grid;
@@ -169,10 +170,6 @@ header {
     "header-content";
     justify-items: center;
     justify-content: center;
-    /* sticks to top of page when scrolling */
-    position: sticky;
-    top: 0;
-    /* --- */
     z-index: 100;
   }
 /*
@@ -199,18 +196,17 @@ header {
 .header-content {
     grid-area: header-content; 
     width: 100%;
-    height: 212px; 
+    height: 161px; 
     display: grid;
     grid-template-columns: 120px 1fr 251px;
-    grid-template-rows: 94px 39px 1fr;
+    grid-template-rows: 94px 39px;
     gap: 0px 0px;
     grid-template-areas: 
     "ff-logo furia-flamenca-area furia-flamenca-area"
-    "ff-logo . header-social"
-    "ff-logo navbar navbar"; 
-    align-items: center;
+    "ff-logo . header-social";
+    align-items: start;
     justify-self: center;
-    align-self: center;
+    align-self: start;
   }
 
 .ff-logo {
@@ -257,6 +253,30 @@ header {
     align-self: end; 
 }
 */
+.navigation {
+    display: grid; 
+    grid-template-columns: 980px; 
+    grid-template-rows: 51px; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "nav-content"; 
+    justify-content: center; 
+    align-content: center; 
+    justify-items: center; 
+    align-items: center; 
+    height: 51px;
+    background-color: #FFF;
+    z-index: 20;
+  }
+  .nav-content {
+    display: grid; 
+    grid-template-columns: 120px 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". navbar"; 
+    grid-area: nav-content; 
+  }
 
 .navbar {
     /* Use only for placing inside header-content */
@@ -264,6 +284,12 @@ header {
     justify-self: stretch; 
     align-self: end; 
   }
+        
+/* sticks to top of page when scrolling */
+.sticky {
+        position: sticky;
+        top: 0;
+}
 
 
 h1 {
