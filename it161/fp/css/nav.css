@@ -146,6 +146,7 @@
         display: none;
     }
     
+    /* Show hamburger menu icon */
     .topnav a.icon {
         float: right;
         display: block;
