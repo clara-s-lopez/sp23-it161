@@ -573,7 +573,7 @@ footer {
 /* TABLET */
 @media all and (min-width:664px) and (max-width:979px) {
     main.wrapper {
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
     
