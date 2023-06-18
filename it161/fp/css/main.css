@@ -167,7 +167,7 @@ header {
     grid-area: header-social;
     justify-self: start; 
     align-self: start; 
-    grid-area: header-social;
+    grid-area: header-social;   
     width: 251px; 
     height: 39px;
     z-index: 2;     /* display in front of white background of .topnav a:hover */
