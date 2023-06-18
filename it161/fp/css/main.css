@@ -135,7 +135,7 @@ header {
     width: 100%;
     height: 161px; 
     display: grid;
-    grid-template-columns: 120px 0.90fr 251px;
+    grid-template-columns: 120px 0.75fr 251px;
     grid-template-rows: 94px 39px;
     gap: 0px 0px;
     grid-template-areas: 
@@ -167,9 +167,7 @@ header {
     grid-area: header-social;
     justify-self: start; 
     align-self: start; 
-    grid-area: header-social;   
-    width: 251px; 
-    height: 39px;
+    grid-area: header-social;
     z-index: 2;     /* display in front of white background of .topnav a:hover */
 }
 
