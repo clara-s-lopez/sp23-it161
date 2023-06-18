@@ -705,6 +705,11 @@ footer {
 
       .header-content {
         width: 100vw;
+        grid-template-columns: 120px 0.75fr 1fr;
+        grid-template-rows: 1fr 39px;
+        grid-template-areas: 
+        "ff-logo furia-flamenca-area furia-flamenca-area"
+        "ff-logo header-social header-social";
     }
 
     
