@@ -601,7 +601,7 @@ footer {
             "introduction" 650px
             "links" 600px
             "social-media" 187px
-            "footer" 200px
+            "footer" 240px
             / 100%;
         gap: 0px;
     }
@@ -715,13 +715,14 @@ footer {
     }
 
     footer {
-        height: 200px;
+        height: 240px;
         display: grid; 
         grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 175px; 
+        grid-template-rows: 175px 0.25em; 
         gap: 20px 25px; 
         grid-template-areas: 
-            "mailing-list contact"; 
+            "mailing-list contact"
+            "code-checkers code-checkers"; 
         justify-content: center; 
         align-content: center;
         justify-items: center; 
@@ -857,11 +858,12 @@ footer {
         height: 400px;
         display: grid; 
         grid-template-columns: 1fr; 
-        grid-template-rows: 175px 175px; 
+        grid-template-rows: 175px 175px 0.25em; 
         gap: 20px 0px; 
         grid-template-areas: 
             "mailing-list" 
-            "contact"; 
+            "contact"
+            "code-checkers"; 
         justify-content: center; 
         align-content: center;
         justify-items: center; 
