@@ -686,6 +686,7 @@ footer {
 
 /* PHONE */
 @media all and (max-width:663px) {
+    
     main.wrapper {
         width: 100%;
     }
@@ -693,6 +694,26 @@ footer {
     h1 {
         width: 100%;
         padding-left: 1%;
+    }
+/* keep footer navigation hidden and line everything up into one column */
+.footer-navigation {
+    display: none;
+}
+
+    footer {
+        height: 400px;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 175px 175px; 
+        gap: 20px 25px; 
+        grid-template-areas: 
+            "mailing-list" 
+            "contact"; 
+        justify-content: center; 
+        align-content: center;
+        justify-items: center; 
+        align-items: center; 
+        grid-area: footer;
     }
     /*
     picture.introduction-image img {
