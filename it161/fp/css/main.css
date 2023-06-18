@@ -760,7 +760,7 @@ footer {
             "introduction" 650px
             "links" 600px
             "social-media" 187px
-            "footer" 200px
+            "footer" 400px  
             / 100%;
         gap: 0px;
         justify-items: center;
@@ -794,7 +794,7 @@ footer {
 
     main.wrapper {
         max-width: 400px;
-        jusify-items: center;
+        justify-items: center;
         justify-content: center;
     }
     
