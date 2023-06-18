@@ -141,7 +141,7 @@ header {
     grid-template-areas: 
     "ff-logo furia-flamenca-area furia-flamenca-area"
     "ff-logo . header-social";
-    align-items: start;
+    align-items: center;
     justify-self: center;
     align-self: start;
   }
@@ -165,7 +165,7 @@ header {
 .header-social {
     font-size: 20px;
     grid-area: header-social;
-    justify-self: stretch; 
+    justify-self: start; 
     align-self: start; 
     grid-area: header-social;
     width: 251px; 
