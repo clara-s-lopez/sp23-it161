@@ -404,7 +404,7 @@ a.learn-more {
 footer {  
     display: grid;
     grid-template-columns: 262px 295px 262px;
-    grid-template-rows: 175px 1em;
+    grid-template-rows: 175px 0.25em;
     gap: 20px 25px;
     grid-auto-flow: row;
     justify-content: center;
