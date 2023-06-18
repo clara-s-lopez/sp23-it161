@@ -591,6 +591,7 @@ footer {
 
     .navigation {
         grid-template-columns: 100vw;
+        height: 71px;
         justify-items: right;
     }
 
@@ -717,9 +718,9 @@ footer {
         */
         grid:
             "header" 161px
-            "navigation" 51px
+            "navigation" 71px
             "gallery" 604px
-            "introduction" 600px
+            "introduction" 650px
             "links" 600px
             "social-media" 187px
             "footer" 200px
@@ -744,6 +745,7 @@ footer {
 
     .navigation {
         grid-template-columns: 100vw;
+        height: 71px;
         justify-items: right;
     }
 
