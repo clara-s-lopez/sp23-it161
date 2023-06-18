@@ -589,7 +589,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 200px 200px 200px;
-        gap: 10px 0px;
+        gap: 15px 0px;
         grid-auto-flow: column;
         align-content: center;
         justify-items: stretch;
@@ -597,13 +597,16 @@ footer {
           "."
           "."
           ".";
+        align-items: center;
       }      
 
     .picture-on-left img {
+        margin: 15px;
         float: left;
     }
 
     .picture-on-right img {
+        margin: 15px;
         float: right;
     }
 
