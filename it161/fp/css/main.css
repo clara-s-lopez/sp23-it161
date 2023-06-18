@@ -67,7 +67,7 @@ h2.body-content-subheader {
 }
 
   
-  @media all and (max-width:500px) {
+  @media all and (max-width:663px) {
     .my-column {
         width: 100%;
       }
@@ -452,8 +452,6 @@ footer {
 
 .mailing-list { 
     grid-area: mailing-list;
-    height: 175px;
-    width: 295px;
     color: #FFF;
     background-color: #000;
     text-align: center;
@@ -588,7 +586,7 @@ footer {
         margin: auto;
     }
 
-    /* hide intro photo, center intro text, and place buttons below intro text */
+    /* hide intro photo, center intro text */
     .intro-photo {
         display: none;
     }
@@ -687,25 +685,99 @@ footer {
 /* PHONE */
 @media all and (max-width:663px) {
     
-    main.wrapper {
+        .layout {
         width: 100%;
+        display: grid;
+        /*
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        */
+        grid:
+            "header" 161px
+            "navigation" 51px
+            "gallery" 604px
+            "introduction" 600px
+            "links" 600px
+            "social-media" 187px
+            "footer" 200px
+            / 100%;
+        gap: 0px;
+        justify-items: center;
+    }
+
+      .header-content {
+        width: 100vw;
+    }
+
+    
+    main.wrapper {
+        max-width: 400px;
+        jusify-items: center;
+        justify-content: center;
     }
     
     h1 {
         width: 100%;
         padding-left: 1%;
     }
+
+    #galleria {
+        width: 100vw;
+        aspect-ratio: 980/558;
+    }
+
+/* hide intro photo and arrange buttons in a single column */
+    .intro-photo {
+        display: none;
+    }
+
+    .introduction {
+        height: 600px;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 56px 56px; 
+        gap: 10px 0px; 
+        grid-template-areas: 
+          "intro-text"
+          "intro-learn-more"
+          "intro-artistic-director"; 
+        justify-content: center; 
+        align-content: center; 
+        justify-items: stretch; 
+        align-items: stretch; 
+      }
+
+      /* restore vertical link cards, but arrange them in a single column */
+      .links {
+        height: 1322px;
+    }
+
+    .link-grid {  
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 434px 434px 434px;
+        gap: 15px 0px;
+        grid-auto-flow: column;
+        align-content: space-evenly;
+        justify-items: center;
+        justify-content: center;
+        grid-template-areas:
+          "."
+          "."
+          ".";
+        align-items: space-evenly;
+      } 
 /* keep footer navigation hidden and line everything up into one column */
-.footer-navigation {
-    display: none;
-}
+    .footer-navigation {
+        display: none;
+    }
 
     footer {
         height: 400px;
         display: grid; 
         grid-template-columns: 1fr; 
         grid-template-rows: 175px 175px; 
-        gap: 20px 25px; 
+        gap: 20px 0px; 
         grid-template-areas: 
             "mailing-list" 
             "contact"; 
@@ -714,6 +786,10 @@ footer {
         justify-items: center; 
         align-items: center; 
         grid-area: footer;
+    }
+
+    .footer-box {
+        width: 100%;
     }
     /*
     picture.introduction-image img {
