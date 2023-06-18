@@ -448,10 +448,12 @@ footer {
 
 .footer-navigation ul {
     list-style: none;
+    margin: 20px;
 }
 
 .footer-navigation li {
     font-size: 18px;
+    line-height: 1.2em;
 }
 
 .mailing-list { 
