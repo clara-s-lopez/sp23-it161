@@ -707,7 +707,7 @@ footer {
         justify-items: center;
     }
 
-      .header-content {
+    .header-content {
         width: 100vw;
         min-width: 430px;
         grid-template-columns: 120px 0.75fr 1fr;
