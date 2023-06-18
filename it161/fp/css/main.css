@@ -578,6 +578,35 @@ footer {
         width: 90%;
         padding-left: 1%;
     }
+
+    /* rearrange links section into an alternating two-column layout */
+
+    .links {
+        height: 660px;
+    }
+
+    .link-grid {  
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 200px 200px;
+        gap: 10px 0px;
+        grid-auto-flow: column;
+        align-content: center;
+        justify-items: stretch;
+        grid-template-areas:
+          "."
+          "."
+          ".";
+      }      
+
+    .picture-on-left img {
+        float: left;
+    }
+
+    .picture-on-right img {
+        float: right;
+    }
+
     /*
     picture.introduction-image img {
         width: 50%;
