@@ -402,6 +402,7 @@ a.learn-more {
 
 /* start footer rules */
 footer {  
+    height: 240px;
     display: grid;
     grid-template-columns: 262px 295px 262px;
     grid-template-rows: 175px 0.25em;
@@ -414,7 +415,6 @@ footer {
     grid-template-areas:
       "footer-navigation mailing-list contact"
       ". code-checkers .";
-    height: 240px;
   }
   
   .footer-navigation { grid-area: footer-navigation; }
