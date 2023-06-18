@@ -572,11 +572,32 @@ footer {
 
     .header-content {
         width: 100vw;
+        min-width: 430px;
+        grid-template-columns: 120px 0.75fr 1fr;
+        grid-template-rows: 1fr 39px;
+        grid-template-areas: 
+        "ff-logo furia-flamenca-area furia-flamenca-area"
+        "ff-logo header-social header-social";
+    }
+
+    .header-social {
+        font-size: 12px;
     }
  
     h1 {
         width: 90%;
         padding-left: 1%;
+    }
+
+    .navigation {
+        grid-template-columns: 100vw;
+        justify-items: right;
+    }
+
+    .nav-content {
+        grid-template-columns: 120px 1fr;
+        grid-template-areas: 
+        ". navbar";
     }
 
     main.wrapper {
@@ -719,6 +740,17 @@ footer {
 
     .header-social {
         font-size: 12px;
+    }
+
+    .navigation {
+        grid-template-columns: 100vw;
+        justify-items: right;
+    }
+
+    .nav-content {
+        grid-template-columns: 120px 1fr;
+        grid-template-areas: 
+        ". navbar";
     }
 
     main.wrapper {
