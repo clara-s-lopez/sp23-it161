@@ -570,6 +570,25 @@ footer {
 /* TABLET */
 @media all and (min-width:664px) and (max-width:979px) {
 
+    .layout {
+        width: 100%;
+        display: grid;
+        /*
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+        */
+        grid:
+            "header" 161px
+            "navigation" 71px
+            "gallery" 604px
+            "introduction" 650px
+            "links" 600px
+            "social-media" 187px
+            "footer" 200px
+            / 100%;
+        gap: 0px;
+    }
+
     .header-content {
         width: 100vw;
         min-width: 430px;
