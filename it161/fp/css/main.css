@@ -91,7 +91,7 @@ h2.body-content-subheader {
 
  /* grid rules start here */
 
-.layout {
+.home-layout {
     width: 100%;
     display: grid;
     /*
@@ -587,7 +587,7 @@ footer {
 /* TABLET */
 @media all and (min-width:664px) and (max-width:979px) {
 
-    .layout {
+    .home-layout {
         width: 100%;
         display: grid;
         /*
@@ -746,7 +746,7 @@ footer {
 /* PHONE */
 @media all and (max-width:663px) {
     
-        .layout {
+        .home-layout {
         width: 100%;
         display: grid;
         /*
