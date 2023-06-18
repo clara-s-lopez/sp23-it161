@@ -446,10 +446,6 @@ footer {
     text-decoration: none;
 }
 
-.footer-navigation { 
-    grid-area: footer-navigation;
-}
-
 .footer-navigation ul {
     list-style: none;
 }
