@@ -105,7 +105,7 @@ h2.body-content-subheader {
         "introduction" 451px
         "links" 474px
         "social-media" 187px
-        "footer" 200px
+        "footer" 1fr
         / 100%;
     gap: 0px;
     justify-items: stretch;
@@ -401,20 +401,30 @@ a.learn-more {
 /* end social-media rules */
 
 /* start footer rules */
-footer {
-    height: 200px;
-    display: grid; 
-    grid-template-columns: 262px 295px 262px; 
-    grid-template-rows: 175px; 
-    gap: 20px 25px; 
-    grid-template-areas: 
-        "footer-navigation mailing-list contact"; 
-    justify-content: center; 
+footer {  
+    display: grid;
+    grid-template-columns: 262px 295px 262px;
+    grid-template-rows: 175px 1em;
+    gap: 20px 25px;
+    grid-auto-flow: row;
+    justify-content: center;
     align-content: center;
-    justify-items: center; 
-    align-items: center; 
-    grid-area: footer;
-}
+    justify-items: center;
+    align-items: center;
+    grid-template-areas:
+      "footer-navigation mailing-list contact"
+      ". code-checkers .";
+    height: 240px;
+  }
+  
+  .footer-navigation { grid-area: footer-navigation; }
+  
+  .mailing-list { grid-area: mailing-list; }
+  
+  .contact { grid-area: contact; }
+  
+  .code-checkers { grid-area: code-checkers; }
+  
 
 .footer-box {
     width: 262px;
@@ -450,6 +460,8 @@ footer {
 
 .mailing-list { 
     grid-area: mailing-list;
+    line-height: 0.5em;
+    height: 175px;
     color: #FFF;
     background-color: #000;
     text-align: center;
@@ -471,6 +483,7 @@ footer {
     width: 264px;
     height: 39px;
     border-top-width: 1.6px;
+    margin: 15px;
     font-size: 13.333px;
 }
 
@@ -482,6 +495,14 @@ footer {
     font-size: 13px;
     font-family: 'DIN Next LT Pro';
 }
+
+.code-checkers {
+    font-size: 13px;
+    font-family: 'DIN Next LT Pro';
+    color: #fff;
+    grid-area: code-checkers; 
+}
+
 /* end footer rules */
 
 /* end grid rules */ 
