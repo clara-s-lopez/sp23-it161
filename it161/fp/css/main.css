@@ -293,14 +293,14 @@ h2.intro-header {
     color: #000;
     background-color: #FFFFFF;
     display: grid; 
-    grid-template-columns: 307px 307px 232px; 
+    grid-template-columns: 1fr 1fr 232px; 
     grid-template-rows: 240px 56px; 
     gap: 50px 20px; 
     grid-template-areas: 
     "intro-text intro-text intro-photo"
     "intro-learn-more intro-artistic-director intro-photo"; 
     align-content: center;
-    justify-content: center; 
+    justify-content: stretch; 
 }
 
 .intro-text { 
@@ -583,6 +583,25 @@ footer {
     }
 
     /* hide intro photo, center intro text, and place buttons below intro text */
+    .intro-photo {
+        display: none;
+    }
+
+    .introduction {
+        height: 451px;
+        padding: 20px 10px;
+        color: #000;
+        background-color: #FFFFFF;
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 240px 56px; 
+        gap: 50px 20px; 
+        grid-template-areas: 
+        "intro-text intro-text"
+        "intro-learn-more intro-artistic-director"; 
+        align-content: center;
+        justify-content: stretch; 
+    }
 
     /* rearrange links section into an alternating two-column layout */
 
