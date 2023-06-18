@@ -100,7 +100,7 @@ h2.body-content-subheader {
     */
     grid:
         "header" 161px
-        "navigation" 51px
+        "navigation" 1fr
         "gallery" 604px
         "introduction" 451px
         "links" 474px
@@ -579,7 +579,7 @@ footer {
         */
         grid:
             "header" 161px
-            "navigation" 71px
+            "navigation" 1fr
             "gallery" 604px
             "introduction" 650px
             "links" 600px
@@ -737,7 +737,7 @@ footer {
         */
         grid:
             "header" 161px
-            "navigation" 71px
+            "navigation" 1fr
             "gallery" 604px
             "introduction" 650px
             "links" 600px
