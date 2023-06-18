@@ -415,15 +415,15 @@ footer {
     grid-template-areas:
       "footer-navigation mailing-list contact"
       ". code-checkers .";
-  }
+}
   
-  .footer-navigation { grid-area: footer-navigation; }
+.footer-navigation { grid-area: footer-navigation; }
   
-  .mailing-list { grid-area: mailing-list; }
+.mailing-list { grid-area: mailing-list; }
   
-  .contact { grid-area: contact; }
+.contact { grid-area: contact; }
   
-  .code-checkers { grid-area: code-checkers; }
+.code-checkers { grid-area: code-checkers; }
   
 
 .footer-box {
@@ -434,7 +434,7 @@ footer {
     text-align: center;
     font-family: 'Futura LT Book', sans-serif;
     font-size: 18pt;
-    }
+}
 
 .footer-box a {
     color: #000;
