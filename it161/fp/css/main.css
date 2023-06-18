@@ -377,6 +377,7 @@ a.learn-more {
 /* start social-media rules */
 .social-media { 
     height: 187px;
+    width: 100%;
     background-color: #961851;
     color: #FFF;
     text-align: center;
@@ -509,6 +510,8 @@ footer {
  }
  */
 
+
+
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
     font-family: 'Futura LT Book', sans-serif;
@@ -539,7 +542,7 @@ footer {
 /* DESKTOP */
 @media all and (min-width:980px) {
     main.wrapper {
-        width: 80%;
+        width: 980px;
         margin: auto;
     }
     
