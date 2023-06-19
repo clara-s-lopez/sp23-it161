@@ -438,6 +438,14 @@ footer {
     text-decoration: none;
 }
 
+.footer-navigation {
+    display: grid; 
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    font-size: 18px;
+    align-items: center;
+}
+
 .footer-navigation ul {
     list-style: none;
     margin: auto;
