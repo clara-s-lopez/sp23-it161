@@ -167,46 +167,6 @@ header {
     z-index: 2;     /* display in front of white background of .topnav a:hover */
 }
 
-.navigation {
-    display: grid; 
-    grid-template-columns: 980px; 
-    grid-template-rows: 51px; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      "nav-content"; 
-    justify-content: center; 
-    align-content: center; 
-    justify-items: center; 
-    align-items: center; 
-    height: 51px;
-    background-color: #FFF;
-    z-index: 20;
-  }
-
-  .nav-content {
-    display: grid; 
-    grid-template-columns: 120px 1fr 60px; 
-    grid-template-rows: 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-      ". navbar ."; 
-    grid-area: nav-content; 
-  }
-
-.navbar {
-    /* Use only for placing inside header-content */
-    grid-area: navbar;
-    justify-self: stretch; 
-    align-self: end;    
-  }
-        
-/* sticks to top of page when scrolling */
-.sticky {
-        position: sticky;
-        top: 0;
-}
-
-
 h1 {
     color: #000;
     font-weight: normal;
@@ -256,6 +216,47 @@ h2.intro-header {
     padding: 20px 23px;
 }
 /* end header rules */
+
+/* start navigation rules */
+.navigation {
+    display: grid; 
+    grid-template-columns: 980px; 
+    grid-template-rows: 51px; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "nav-content"; 
+    justify-content: center; 
+    align-content: center; 
+    justify-items: center; 
+    align-items: center; 
+    height: 51px;
+    background-color: #FFF;
+    z-index: 20;
+  }
+
+  .nav-content {
+    display: grid; 
+    grid-template-columns: 120px 1fr 60px; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". navbar ."; 
+    grid-area: nav-content; 
+  }
+
+.navbar {
+    /* Use only for placing inside header-content */
+    grid-area: navbar;
+    justify-self: stretch; 
+    align-self: end;    
+  }
+        
+/* sticks to top of page when scrolling */
+.sticky {
+        position: sticky;
+        top: 0;
+}
+/* end navigation rules */
 
 /* start gallery rules */
 .gallery { 
