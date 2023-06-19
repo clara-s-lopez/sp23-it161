@@ -1,0 +1,75 @@
+.container {
+    position: relative;
+  }
+  
+  .menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .menu-icon span {
+    display: block;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 4px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 0;
+    right: -250px; /* Offscreen initially */
+    width: 250px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    transition: right 0.3s;
+  }
+  
+  .menu li {
+    list-style: none;
+    margin-bottom: 10px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .submenu {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .submenu li {
+    margin-bottom: 5px;
+  }
+  
+  /* Show/hide submenus on click */
+  
+  .menu li:hover .submenu {
+    display: block;
+  }
+  
+  /* Animate hamburger menu on toggle */
+  
+  #menu-toggle:checked ~ .menu {
+    right: 0;
+  }
+  
+  #menu-toggle:checked ~ .menu-icon span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  #menu-toggle:checked ~ .menu-icon span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  #menu-toggle:checked ~ .menu-icon span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
