@@ -476,6 +476,7 @@ footer {
 
 .contact { 
     grid-area: contact;
+    line-height: 0.75em;
 }
 
 .copyright {
