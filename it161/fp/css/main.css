@@ -439,6 +439,7 @@ footer {
 
 .footer-navigation ul {
     list-style: none;
+    margin: auto;
 }
 
 .footer-navigation li {
