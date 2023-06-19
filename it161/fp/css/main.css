@@ -295,12 +295,14 @@ h2.intro-header {
     grid-template-areas: 
     "intro-text intro-text intro-photo"
     "intro-learn-more intro-artistic-director intro-photo"; 
-    align-content: center;
+    align-content: space-evenly;
     justify-content: stretch;
 }
 
 .intro-text { 
     grid-area: intro-text;
+    text-align: justify;
+    text-justify: inter-word;
     z-index: 1; 
 }
 
