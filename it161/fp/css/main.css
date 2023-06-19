@@ -131,7 +131,7 @@ header {
     width: 100%;
     height: 161px; 
     display: grid;
-    grid-template-columns: 120px 0.75fr 251px;
+    grid-template-columns: 120px 0.85fr 251px;
     grid-template-rows: 94px 39px;
     gap: 0px 0px;
     grid-template-areas: 
@@ -647,7 +647,7 @@ footer {
 
     .navigation {
         grid-template-columns: 100vw;
-        height: 71px;
+        height: 75px;
         justify-items: right;
     }
 
@@ -802,7 +802,7 @@ footer {
 
     .navigation {
         grid-template-columns: 100vw;
-        height: 71px;
+        height: 75px;
         justify-items: right;
     }
 
