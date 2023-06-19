@@ -215,6 +215,22 @@ h2.intro-header {
 .fa-facebook {
     padding: 20px 23px;
 }
+
+#social-facebook {
+    padding: 20px 27px;
+}
+
+#social-instagram {
+    padding: 20px 23px;
+}
+
+#social-youtube {
+    padding: 20px 23px;
+}
+
+#social-pinterest {
+    padding: 20px 23px;
+}
 /* end header rules */
 
 /* start navigation rules */
