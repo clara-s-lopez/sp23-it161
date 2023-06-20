@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.menu-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  z-index: 9999;
+}
+
+.menu-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hamburger,
+.submenu-chevron {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+
+.hamburger:before,
+.hamburger:after,
+.submenu-chevron:before,
+.submenu-chevron:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  transition: all 0.3s ease;
+}
+
+.hamburger:before {
+  top: -8px;
+}
+
+.hamburger:after {
+  bottom: -8px;
+}
+
+.submenu-chevron:before {
+  top: -5px;
+}
+
+.submenu-chevron:after {
+  bottom: -5px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  top: 50px;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #555;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu a {
+  display: block;
+  padding: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.submenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 250px;
+  background-color: #666;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+input[type="checkbox"]:checked ~ .menu li input[type="checkbox"]:checked ~ .submenu {
+  max-height: 500px;
+  opacity: 1;
+  left: 0;
+  z-index: 1;
+}
+
+
+.submenu li {
+  position: relative;
+}
+
+.submenu a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .menu {
+  right: 0;
+}
+
+input[type="checkbox"]:checked ~ .menu-btn .hamburger {
+  background-color: transparent;
+}
+
+input[type="checkbox"]:checked ~ .menu-btn .hamburger:before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+input[type="checkbox"]:checked ~ .menu-btn .hamburger:after {
+  transform: rotate(-45deg);
+  bottom: 0;
+}
+
+input[type="checkbox"]:checked ~ .menu li .submenu {
+  max-height: 500px;
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+  <div class="menu-container">
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="menu-btn">
+      <span class="hamburger"></span>
+    </label>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#">Products</a>
+        <input type="checkbox" id="submenu-toggle-1" />
+        <label for="submenu-toggle-1" class="submenu-btn">
+          <span class="submenu-chevron"></span>
+        </label>
+        <ul class="submenu">
+          <li><a href="#">Submenu 1</a></li>
+          <li><a href="#">Submenu 2</a></li>
+          <li>
+            <label for="submenu-toggle-1" class="close-btn">
+              <span>&times;</span>
+            </label>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">Services</a>
+        <input type="checkbox" id="submenu-toggle-2" />
+        <label for="submenu-toggle-2" class="submenu-btn">
+          <span class="submenu-chevron"></span>
+        </label>
+        <ul class="submenu">
+          <li><a href="#">Submenu 3</a></li>
+          <li><a href="#">Submenu 4</a></li>
+          <li>
+            <label for="submenu-toggle-1" class="close-btn">
+              <span>&times;</span>
+            </label>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</body>
+</html>

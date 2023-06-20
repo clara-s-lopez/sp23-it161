@@ -92,8 +92,6 @@
     display: block;
 }
 
-
-
 /* Responsive rules - apply when screen width is less than 980px */
 
 @media screen and (max-width: 979px) {
