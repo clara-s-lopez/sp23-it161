@@ -136,6 +136,11 @@ a:hover {
     transform: none;
 }
 
+/* -------csl------- */
+.onclick-menu {
+    float: right;
+}
+/* ----------------- */
 
 .onclick-menu:focus {
     /* clicking on label should toggle the menu */
