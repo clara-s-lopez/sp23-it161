@@ -33,6 +33,37 @@
     display: none;
 }
 
+/*----------------Hamburger menu-----------------*/
+#nav-slide-menu {
+    position: fixed;
+    right: -100%; /* Hide offscreen until hamburger icon is clicked */
+    background-color: #000;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+#nav-slide-menu ul {
+    list-style: none;
+}
+
+#nav-slide-menu li {
+    display: inline-block;
+    line-height: 1.5em;
+    font-family: 'Futura LT';
+    font-size: larger;
+    text-decoration: none;
+}
+
+.slide-menu-submenu {
+    transform-origin: 0 0;
+    transform: scaleY(0);
+    transition: 0.3s;
+}
+
+
+/*-----------------------------------------------*/
+
+
 /* https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 
 /* Dropdown container - needed to position the dropdown content */
