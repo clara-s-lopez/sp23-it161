@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- https://codepen.io/nrauf90/pen/dajxQQ -->
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/hamburger3.css">
+
+    </head>
+
+    <body>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox"/>
+        
+                <!--
+                Some spans to act as a hamburger.
+        
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+        
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                <ul id="menu">
+                    <li><a href="#">Home</a></li>
+                    <li class="">
+                        <div tabindex="0" class="onclick-menu">About
+                            <ul class="onclick-menu-content">
+                                <li><a href="#">Sub-1</a></li>
+                                <li><a href="#">Sub-2</a></li>
+                                <li><a href="#">Sub-3</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Info</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="https://erikterwan.com/" target="_blank">Show me more</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
