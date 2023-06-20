@@ -18,8 +18,8 @@
     right: 0;
   }
   
-  .hamburger,
-  .submenu-chevron {
+  .menu-btn__icon,
+  .submenu-btn__icon {
     display: block;
     width: 20px;
     height: 2px;
@@ -31,10 +31,8 @@
     transition: all 0.3s ease;
   }
   
-  .hamburger:before,
-  .hamburger:after,
-  .submenu-chevron:before,
-  .submenu-chevron:after {
+  .submenu-btn__icon:before,
+  .submenu-btn__icon:after {
     content: '';
     display: block;
     width: 100%;
@@ -44,19 +42,11 @@
     transition: all 0.3s ease;
   }
   
-  .hamburger:before {
-    top: -8px;
-  }
-  
-  .hamburger:after {
-    bottom: -8px;
-  }
-  
-  .submenu-chevron:before {
+  .submenu-btn__icon:before {
     top: -5px;
   }
   
-  .submenu-chevron:after {
+  .submenu-btn__icon:after {
     bottom: -5px;
   }
   
@@ -122,17 +112,17 @@
     right: 0;
   }
   
-  input[type="checkbox"]:checked ~ .menu-btn .hamburger {
+  input[type="checkbox"]:checked ~ .menu-btn .menu-btn__icon {
     background-color: transparent;
   }
   
-  input[type="checkbox"]:checked ~ .menu-btn .hamburger:before {
-    transform: rotate(45deg);
+  input[type="checkbox"]:checked ~ .menu-btn .submenu-btn__icon:before {
+    transform: rotate(-45deg);
     top: 0;
   }
   
-  input[type="checkbox"]:checked ~ .menu-btn .hamburger:after {
-    transform: rotate(-45deg);
+  input[type="checkbox"]:checked ~ .menu-btn .submenu-btn__icon:after {
+    transform: rotate(45deg);
     bottom: 0;
   }
   
