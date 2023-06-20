@@ -136,7 +136,8 @@
         display: block;
         font-size: xx-large;
     }
-    
+    /* Doing hamburger menu my own way */
+    /*
     .topnav.responsive {
         position: relative;
     }
@@ -152,8 +153,9 @@
         right: 0;
         top: 0;
     }
-    
+    */
     /* https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
+    /*
 
     .topnav.responsive .dropdown {
         float: none;
@@ -168,6 +170,7 @@
       width: 100%;
       text-align: left;
     }
+    */
 }
 
 

@@ -8,6 +8,8 @@ document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.or
  document.getElementById("this-year").innerHTML = thisYear;
 
 //manages mobile nav 
+//Doing hamburger menu my own way
+/*
 function toggleMenu() {
     var nav = document.getElementById("myTopnav");
     if (nav.className === "topnav navbar") {
@@ -16,3 +18,4 @@ function toggleMenu() {
         nav.className = "topnav navbar";
     }
 }
+*/
