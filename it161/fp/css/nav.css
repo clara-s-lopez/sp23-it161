@@ -154,6 +154,7 @@
         float: right;
         display: block;
         font-size: xx-large;
+        cursor: pointer;
     }
 
     /* Doing hamburger menu my own way */
