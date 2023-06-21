@@ -41,7 +41,7 @@
     right: -100%; /* Hide offscreen until hamburger icon is clicked */
     background-color: #000;
     color: #fff;
-    transition: all 0.5s ease;
+    transition: right 0.3s ease-in-out;
 }
 
 #nav-slide-menu ul {
@@ -62,13 +62,14 @@
     transform: scaleY(0);
     transition: 0.3s;
 }
-
+/* Comment out to test */
+/*
 .invisible-checkbox {
     opacity: 0;
 }
-
+*/
 #hamburger:checked ~ .nav-slide-menu {
-    right: 100%;
+    right: 0; /* Slide the menu into view when the checkbox is checked */
 }
 
 #company-submenu-toggle:checked ~ #company-submenu {
