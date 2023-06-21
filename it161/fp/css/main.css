@@ -357,7 +357,7 @@ h2.intro-header {
 .intro-learn-more { grid-area: intro-learn-more; }
 .intro-artistic-director { grid-area: intro-artistic-director; }
 .intro-button {
-    font-family: sacramento, cursive;
+    font-family: Sacramento, cursive;
     font-size: 40px;
     text-align: center;
     color: #000;
