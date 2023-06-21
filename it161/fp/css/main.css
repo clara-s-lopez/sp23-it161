@@ -313,6 +313,7 @@ h2.intro-header {
     "galleria";
     justify-content: center;
     align-content: center;
+    z-index: inherit;
 }
 
 #galleria { 
@@ -341,6 +342,7 @@ h2.intro-header {
     "intro-learn-more intro-artistic-director intro-photo"; 
     align-content: space-evenly;
     justify-content: stretch;
+    z-index: inherit;
 }
 
 .intro-text { 
