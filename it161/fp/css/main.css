@@ -50,11 +50,6 @@ body a:hover {
     background: transparent;
 }
 
-footer {
-    clear: both;
-    padding: 1em;
-}
-
 /* start topic page styles */
 .body-content {
     color: #FFF;
@@ -463,6 +458,14 @@ footer {
 .contact { grid-area: contact; }
   
 .code-checkers { grid-area: code-checkers; }
+
+/* part of profile assignment - doesn't seem to be doing much for me here */
+/* 
+footer {
+    clear: both;
+    padding: 1em;
+}
+*/
   
 
 .footer-box {
