@@ -1,0 +1,43 @@
+.nav-slide-menu {
+    position: fixed;
+    right: -300px;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background: #f1f1f1;
+    transition: right 0.3s ease-in-out;
+    z-index: 9999;
+  }
+  
+  .submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .submenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .submenu ul li {
+    padding: 10px;
+  }
+  
+  .invisible-checkbox {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  /* Slide the menu into view when the menu checkbox is checked */
+  #menu-toggle:checked ~ .nav-slide-menu {
+    right: 0;
+  }
+  
+  /* Expand the submenus when their respective checkboxes are checked */
+  #submenu-toggle-1:checked ~ .submenu,
+  #submenu-toggle-2:checked ~ .submenu {
+    max-height: 100px; /* Adjust the desired maximum height */
+  }
+  
