@@ -98,6 +98,10 @@
     z-index: inherit;    
 }
 
+#nav-slide-menu > ul > li > ul > li {
+    font-size: 3vh;
+}
+
 
 /* comment out to test checkbox state */
 .invisible-checkbox {
