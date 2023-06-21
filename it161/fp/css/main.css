@@ -174,7 +174,7 @@ header {
     grid-area: ff-logo; 
     height: 228px;
     width: 120px;
-    z-index: inherit
+    z-index: inherit;
 }
 
 .furia-flamenca-area {
