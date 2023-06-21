@@ -7,6 +7,11 @@ document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.or
  let d = new Date(); let thisYear = d.getFullYear();
  document.getElementById("this-year").innerHTML = thisYear;
 
+// Uncheck the menu-toggle checkbox when the page loads
+ window.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('menu-toggle').checked = false;
+});
+
 //Moves overlay containing slide menu to the front
  document.getElementById('menu-toggle').addEventListener('change', function() {
     const overlay = document.getElementById('overlay');
@@ -15,7 +20,7 @@ document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.or
     } else {
       // Delay the restoration of zIndex by 0.3 seconds
     setTimeout(function() {
-        overlay.style.zIndex = 'initial';
+        overlay.style.zIndex = '-9999';
       }, 300);
     }
   });
