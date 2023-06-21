@@ -36,6 +36,7 @@
 /*----------------Hamburger menu-----------------*/
 #nav-slide-menu {
     position: fixed;
+    top: 0;
     width: 100%;
     height: 100%;
     right: -100%; /* Hide offscreen until hamburger icon is clicked */
@@ -45,7 +46,8 @@
 }
 
 #nav-slide-menu ul {
-    list-style: none;
+    list-style-type: none;
+    margin: auto;
 }
 
 #nav-slide-menu li {
@@ -68,7 +70,7 @@
     opacity: 0;
 }
 */
-#hamburger:checked ~ .nav-slide-menu {
+#menu-toggle:checked ~ .nav-slide-menu {
     right: 0; /* Slide the menu into view when the checkbox is checked */
 }
 
