@@ -58,7 +58,7 @@ h2.invisible-header {
 .body-content {
     color: #FFF;
     background-color: rgba(0,0,0,0.75);
-    font-family: 'Futura LT';
+    font-family: 'Futura LT', sans-serif;
 }
 
 h2.body-content-header {
