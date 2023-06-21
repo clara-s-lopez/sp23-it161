@@ -18,11 +18,6 @@ body{
     margin:0; /* removes gap at top of page */
 }
 
-.link-turns-pink:hover {
-    color: #961851;
-    background: transparent;
-}
-
 ::selection {
     color: #000; 
     background: #C92E24;
@@ -44,6 +39,15 @@ body a:hover {
     color: black;
     background-color: #961851;
     text-decoration: none;
+}
+
+.link-turns-pink {
+    transition: 0.3s;
+}
+
+.link-turns-pink:hover {
+    color: #961851;
+    background: transparent;
 }
 
 footer {

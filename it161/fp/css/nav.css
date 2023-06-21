@@ -78,6 +78,7 @@
 }
 
 .slide-menu-submenu {
+    font-size: small;
     position: fixed;
     display: block;
     transform-origin: 0 0;
