@@ -147,6 +147,7 @@ header {
     grid-area: ff-logo; 
     height: 228px;
     width: 120px;
+    z-index: inherit
 }
 
 .furia-flamenca-area {
@@ -164,7 +165,7 @@ header {
     justify-self: start; 
     align-self: start; 
     grid-area: header-social;
-    z-index: 2;     /* display in front of white background of .topnav a:hover */
+    z-index: inherit;     /* display in front of white background of .topnav a:hover */
 }
 
 h1 {
