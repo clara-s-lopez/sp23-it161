@@ -62,6 +62,17 @@
     transition: 0.3s;
 }
 
+#hamburger:checked ~ #nav-slide-menu {
+    right: 100%;
+}
+
+#company-submenu-toggle:checked ~ #company-submenu {
+    transform: scaleY(1);
+}
+
+#performances-submenu-toggle:checked ~ #performances-submenu {
+    transform: scaleY(1);
+}
 
 /*-----------------------------------------------*/
 
@@ -138,6 +149,7 @@
         display: block;
         font-size: xx-large;
     }
+
     /* Doing hamburger menu my own way */
     /*
     .topnav.responsive {
