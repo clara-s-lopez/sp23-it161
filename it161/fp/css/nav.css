@@ -70,7 +70,7 @@
     opacity: 0;
 }
 */
-#menu-toggle:checked ~ .nav-slide-menu {
+#menu-toggle:checked ~ #nav-slide-menu {
     right: 0; /* Slide the menu into view when the checkbox is checked */
 }
 
