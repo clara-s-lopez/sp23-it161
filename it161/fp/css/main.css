@@ -742,6 +742,7 @@ footer {
             "social-media" 187px
             "footer" 400px  
             / 100%;
+            justify-items: center;
         gap: 0px;
     }
 
