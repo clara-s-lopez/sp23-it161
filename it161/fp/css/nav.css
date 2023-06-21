@@ -96,6 +96,7 @@
 /* chevron styles */
 /* https://css.gg/chevron-down */
 .gg-chevron-down {
+    cursor: pointer;
     text-align: right;
     box-sizing: border-box;
     position: relative;

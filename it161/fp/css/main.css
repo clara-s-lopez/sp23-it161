@@ -18,6 +18,15 @@ body{
     margin:0; /* removes gap at top of page */
 }
 
+a {
+    transition: 0.3s;
+}
+
+.link-turns-pink:hover {
+    color: #961851;
+    background: transparent;
+}
+
 ::selection {
     color: #000; 
     background: #C92E24;
@@ -334,10 +343,6 @@ h2.intro-header {
     z-index: 1;
 }
 
-.link-turns-pink:hover {
-    color: #961851;
-    background: transparent;
-}
 /* end introduction rules */
 
 /* start links rules */
