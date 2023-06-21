@@ -743,7 +743,6 @@ footer {
             "footer" 400px  
             / 100%;
         gap: 0px;
-        justify-items: center;
     }
 
     .header-content {
