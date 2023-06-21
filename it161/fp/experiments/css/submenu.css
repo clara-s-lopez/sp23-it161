@@ -15,13 +15,21 @@
     transition: max-height 0.3s ease-in-out;
   }
   
-  .submenu ul {
+  .sub-submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  
+  .submenu ul,
+  .sub-submenu ul {
     padding: 0;
     margin: 0;
     list-style: none;
   }
   
-  .submenu ul li {
+  .submenu ul li,
+  .sub-submenu ul li {
     padding: 10px;
   }
   
@@ -36,8 +44,8 @@
   }
   
   /* Expand the submenus when their respective checkboxes are checked */
-  #submenu-toggle-1:checked ~ .submenu,
-  #submenu-toggle-2:checked ~ .submenu {
+  #submenu-toggle-1:checked ~ .submenu .sub-submenu,
+  #submenu-toggle-2:checked ~ .submenu .sub-submenu {
     max-height: 100px; /* Adjust the desired maximum height */
   }
   

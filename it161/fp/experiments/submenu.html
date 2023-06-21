@@ -7,37 +7,31 @@
   <link rel="stylesheet" href="submenu.css">
 </head>
 <body>
-  <ul class="nav-slide-menu">
-    <li>
-      <label for="menu-toggle" class="menu-toggle-label">Toggle Menu</label>
-      <input type="checkbox" id="menu-toggle" class="invisible-checkbox">
-      <div class="submenu">
+    <div class="nav-slide-menu">
         <ul>
-          <li>Submenu Item 1</li>
-          <li>Submenu Item 2</li>
+          <li>
+            <label for="menu-toggle" class="menu-toggle-label">Menu</label>
+            <input type="checkbox" id="menu-toggle" class="invisible-checkbox" />
+            <ul class="submenu">
+              <li>
+                <label for="submenu-toggle-1" class="submenu-toggle-label">Submenu 1</label>
+                <input type="checkbox" id="submenu-toggle-1" class="invisible-checkbox" />
+                <ul class="sub-submenu">
+                  <li>Submenu 1.1</li>
+                  <li>Submenu 1.2</li>
+                </ul>
+              </li>
+              <li>
+                <label for="submenu-toggle-2" class="submenu-toggle-label">Submenu 2</label>
+                <input type="checkbox" id="submenu-toggle-2" class="invisible-checkbox" />
+                <ul class="sub-submenu">
+                  <li>Submenu 2.1</li>
+                  <li>Submenu 2.2</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
         </ul>
-      </div>
-    </li>
-    <li>
-      <label for="submenu-toggle-1" class="submenu-toggle-label">Toggle Submenu 1</label>
-      <input type="checkbox" id="submenu-toggle-1" class="invisible-checkbox">
-      <div class="submenu">
-        <ul>
-          <li>Submenu 1 Item 1</li>
-          <li>Submenu 1 Item 2</li>
-        </ul>
-      </div>
-    </li>
-    <li>
-      <label for="submenu-toggle-2" class="submenu-toggle-label">Toggle Submenu 2</label>
-      <input type="checkbox" id="submenu-toggle-2" class="invisible-checkbox">
-      <div class="submenu">
-        <ul>
-          <li>Submenu 2 Item 1</li>
-          <li>Submenu 2 Item 2</li>
-        </ul>
-      </div>
-    </li>
-  </ul>
+      </div>      
 </body>
 </html>
