@@ -366,6 +366,7 @@ h2.intro-header {
 /* start links rules */
 .links { 
     height: 474px; 
+    z-index: inherit;
 }
 
 .link-grid {  
@@ -414,6 +415,7 @@ a.learn-more {
     background-color: #961851;
     color: #FFF;
     text-align: center;
+    z-index: inherit;
 }
 
 .social-media a {
@@ -450,6 +452,7 @@ footer {
     grid-template-areas:
       "footer-navigation mailing-list contact"
       ". code-checkers .";
+    z-index: inherit;
 }
   
 .footer-navigation { grid-area: footer-navigation; }
