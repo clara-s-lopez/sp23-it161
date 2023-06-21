@@ -78,8 +78,7 @@
 }
 
 .slide-menu-submenu {
-    position: absolute;
-    right: -100%;
+    position: fixed;
     display: block;
     transform-origin: 0 0;
     transform: scaleY(0);
@@ -131,13 +130,11 @@
 
 #company-submenu-toggle:checked ~ #company-submenu {
     position: relative;
-    right: 0;
     transform: scaleY(1);
 }
 
 #performances-submenu-toggle:checked ~ #performances-submenu {
     position: relative;
-    right: 0;
     transform: scaleY(1);
 }
 
