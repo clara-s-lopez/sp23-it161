@@ -85,6 +85,11 @@
     z-index: inherit;    
 }
 
+.invisible-checkbox {
+    position: absolute; 
+    top: -100%;
+}
+
 .gg-chevron-down {
     box-sizing: border-box;
     position: relative;
@@ -108,18 +113,6 @@
     left: 4px;
     top: 2px
 }
-
-/* Comment out to test */
-/* consider position: absolute; top: -100%; (sacrifices accessibility) */
-
-.invisible-checkbox {
-    /* more accessible */
-    /* opacity: 0; */
-    position: absolute; 
-    top: -100%;
-}
-
-
 
 #menu-toggle:checked ~ #nav-slide-menu {
     right: 0; /* Slide the menu into view when the checkbox is checked */
