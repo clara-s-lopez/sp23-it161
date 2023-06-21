@@ -34,6 +34,17 @@
 }
 
 /*----------------Hamburger menu-----------------*/
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 200%; /* Double width (allow room for slide menu) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -9999;
+}
+
 #nav-slide-menu {
     display: flex;
     align-items: center;
@@ -128,6 +139,7 @@
 /* checked styles */
 
 #menu-toggle:checked ~ #nav-slide-menu {
+    opacity: 100%;
     right: 0; /* Slide the menu into view when the checkbox is checked */
 }
 
