@@ -130,6 +130,7 @@
 }
 
 /* changes to active-colored double chevron https://css.gg/chevron-double-down */
+/*
 #company-submenu-toggle:checked ~ #company-submenu-chevron {
     color: #961851;
     box-sizing: border-box;
@@ -159,7 +160,7 @@
     color: #961851;
     top: 8px
 }
-
+*/
 
 #performances-submenu-toggle:checked ~ #performances-submenu {
     transform: scaleY(1);
