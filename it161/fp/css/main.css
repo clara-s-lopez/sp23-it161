@@ -414,7 +414,7 @@ a.learn-more {
 .social-media { 
     height: 187px;
     width: 100%;
-    background-color: #961851;
+    background-color: #bd2b48;
     color: #FFF;
     text-align: center;
     z-index: inherit;
@@ -428,8 +428,13 @@ a.learn-more {
     vertical-align: baseline;
 }
 
+.social-media a:hover {
+    background: transparent;
+}
+
+
 .social-link {
-    color:#961851;
+    color:#bd2b48;
     background-color: #FFF;
     transition: 0.3s;
 }
@@ -521,8 +526,8 @@ footer {
 }
 
 #subscribe-now {
-    background-color: #961851;
-    border-color: #961851;
+    background-color: #bd2b48;
+    border-color: #bd2b48;
     color: #000;
     width: 264px;
     height: 39px;
