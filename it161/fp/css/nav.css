@@ -57,6 +57,7 @@
 }
 
 .slide-menu-submenu {
+    display: inline-block;
     transform-origin: 0 0;
     transform: scaleY(0);
     transition: 0.3s;
@@ -66,7 +67,7 @@
     opacity: 0;
 }
 
-#hamburger:checked ~ #nav-slide-menu {
+#hamburger:checked ~ .nav-slide-menu {
     right: 100%;
 }
 
