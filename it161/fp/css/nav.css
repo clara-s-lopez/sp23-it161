@@ -139,46 +139,6 @@
     transform: scaleY(1);
 }
 
-/* changes to active-colored double chevron https://css.gg/chevron-double-down */
-/*
-#company-submenu-toggle:checked ~ #company-submenu-chevron {
-    color: #961851;
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    transform: scale(var(--ggs,1));
-    width: 22px;
-    height: 22px
-}
-
-#company-submenu-toggle:checked ~ #company-submenu-chevron::after, #company-submenu-chevron::before {
-    color: #961851;
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    border-bottom: 2px solid;
-    border-right: 2px solid;
-    transform: rotate(45deg);
-    left: 7px;
-    top: 3px
-}
-
-#company-submenu-toggle:checked ~ #company-submenu-chevron::after {
-    color: #961851;
-    top: 8px
-}
-*/
-
-/*-----------------------------------------------*/
-
-
-/* https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
-
-/* Dropdown container - needed to position the dropdown content */
-
 .dropdown {
     position: relative;
   }
@@ -219,7 +179,6 @@
 /* Change text to fuschia on topnav links and the dropdown button on hover */
 .topnav a:hover, .dropdown:hover .dropbtn {
     background-color: #fff;
-    /* background: transparent; */
     color: #961851;
 }
 
@@ -249,42 +208,6 @@
         cursor: pointer;
         margin-right: 20px;
     }
-
-    /* Doing hamburger menu my own way */
-    /*
-    .topnav.responsive {
-        position: relative;
-    }
-    
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    
-    .topnav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    */
-    /* https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
-    /*
-
-    .topnav.responsive .dropdown {
-        float: none;
-    }
-    
-    .topnav.responsive .dropdown-content {
-        position: relative;
-    }
-    
-    .topnav.responsive .dropdown .dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-    */
 }
 
 
