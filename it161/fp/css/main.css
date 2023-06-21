@@ -427,6 +427,7 @@ a.learn-more {
 .social-link {
     color:#961851;
     background-color: #FFF;
+    transition: 0.3s;
 }
 
 .social-link:hover {
