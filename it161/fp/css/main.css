@@ -739,6 +739,11 @@ footer {
         float: right;
     }
 
+    /* rescale social links */
+    .social-media > .social-container {
+        scale: 90%;
+    }
+
     /* Hide footer navigation and re-center remaining divs */
 
     .footer-navigation {
@@ -880,6 +885,12 @@ footer {
           ".";
         align-items: space-evenly;
       } 
+
+      /* rescale social links */
+    .social-media > .social-container {
+        scale: 80%;
+    }
+
 /* keep footer navigation hidden and line everything up into one column */
     .footer-navigation {
         display: none;
