@@ -43,11 +43,13 @@
     background-color: #000;
     color: #fff;
     transition: right 0.3s ease-in-out;
+    z-index: 20;
 }
 
 #nav-slide-menu ul {
     list-style-type: none;
     margin: auto;
+    z-index: inherit;
 }
 
 #nav-slide-menu li {
@@ -56,6 +58,7 @@
     font-family: 'Futura LT';
     font-size: larger;
     text-decoration: none;
+    z-index: inherit;
 }
 
 .slide-menu-submenu {
@@ -63,6 +66,7 @@
     transform-origin: 0 0;
     transform: scaleY(0);
     transition: 0.3s;
+    z-index: inherit;    
 }
 /* Comment out to test */
 /*
