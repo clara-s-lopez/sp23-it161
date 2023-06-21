@@ -50,6 +50,10 @@ body a:hover {
     background: transparent;
 }
 
+h2.invisible-header {
+    display: none;
+}
+
 /* start topic page styles */
 .body-content {
     color: #FFF;
