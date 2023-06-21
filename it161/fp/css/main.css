@@ -117,10 +117,6 @@ h2.body-content-subheader {
 .home-layout {
     width: 100%;
     display: grid;
-    /*
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr auto;
-    */
     grid:
         "header" 161px
         "navigation" 1fr
@@ -460,15 +456,6 @@ footer {
   
 .code-checkers { grid-area: code-checkers; }
 
-/* part of profile assignment - doesn't seem to be doing much for me here */
-/* 
-footer {
-    clear: both;
-    padding: 1em;
-}
-*/
-  
-
 .footer-box {
     width: 262px;
     height: 175px;
@@ -558,31 +545,7 @@ footer {
  
 /* end positioning styles */
 
-/* profile page code */
-
-/*
- The border radius on h1.page-header and main.wrapper provide the 
- curved corners that appear on the body area of the page
-*/
-
-
-/*
- main.wrapper {
-    color: #FFFFFF;
-    background-color: #000;
-    overflow: auto;
-    -moz-border-radius-bottomleft: 5px;
-    -moz-border-radius-bottomright: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    opacity: 50%;
- }
- */
-
 /* Responsive rules */
-
-/* Alternate screen dimensions: */
-/* https://learn.microsoft.com/en-us/windows/apps/design/layout/screen-sizes-and-breakpoints-for-responsive-design */
 
 /* DESKTOP */
 @media all and (min-width:980px) {
@@ -594,25 +557,7 @@ footer {
     h1 {
         width: 850px;
         padding-left: 1%;
-    }
-    /*Don't need this with intro subgrid*/
- /*   
-    picture.introduction-image img {
-        width: 232px;
-        height: 336px;
-        object-fit: contain;
-        float: right;
-        margin-left: 2em;
-    }
-*/
-/*
-    picture.ff-logo img {
-        height: 120px;
-        width: 228px;
-        float:left;
-        vertical-align: baseline;
-    }
-*/    
+    }    
 }
 
 /* TABLET */
@@ -621,10 +566,6 @@ footer {
     .home-layout {
         width: 100%;
         display: grid;
-        /*
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr auto;
-        */
         grid:
             "header" 161px
             "navigation" 1fr
@@ -769,14 +710,6 @@ footer {
     .footer-box {
         width: 100%;
     }
-
-    /*
-    picture.introduction-image img {
-        width: 50%;
-        float: right;
-        margin-left: 1em;
-    }
-    */
 }
 
 /* PHONE */
@@ -785,10 +718,6 @@ footer {
         .home-layout {
         width: 100%;
         display: grid;
-        /*
-        grid-template-columns: 1fr;
-        grid-template-rows: auto 1fr auto;
-        */
         grid:
             "header" 161px
             "navigation" 1fr
@@ -916,9 +845,4 @@ footer {
     .footer-box {
         width: 100%;
     }
-    /*
-    picture.introduction-image img {
-        width: 100%;
-    }
-    */
 }
