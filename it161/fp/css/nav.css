@@ -62,6 +62,10 @@
     transition: 0.3s;
 }
 
+.invisible-checkbox {
+    opacity: 0;
+}
+
 #hamburger:checked ~ #nav-slide-menu {
     right: 100%;
 }
