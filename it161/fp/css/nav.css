@@ -166,6 +166,7 @@
         display: block;
         font-size: xx-large;
         cursor: pointer;
+        margin-right: 20px;
     }
 
     /* Doing hamburger menu my own way */
