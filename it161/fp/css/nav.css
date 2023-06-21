@@ -89,7 +89,7 @@
 }
 
 .slide-menu-submenu {
-    font-size: small;
+    margin-left: 1vw;
     position: fixed;
     display: block;
     transform-origin: 0 0;
@@ -97,6 +97,7 @@
     transition: 0.3s;
     z-index: inherit;    
 }
+
 
 /* comment out to test checkbox state */
 .invisible-checkbox {
