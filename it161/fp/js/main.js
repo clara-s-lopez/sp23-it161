@@ -7,15 +7,3 @@ document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.or
  let d = new Date(); let thisYear = d.getFullYear();
  document.getElementById("this-year").innerHTML = thisYear;
 
-//manages mobile nav 
-//Doing hamburger menu my own way
-/*
-function toggleMenu() {
-    var nav = document.getElementById("myTopnav");
-    if (nav.className === "topnav navbar") {
-        nav.className += " responsive";
-    } else {
-        nav.className = "topnav navbar";
-    }
-}
-*/
