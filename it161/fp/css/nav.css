@@ -79,7 +79,6 @@
 
 .slide-menu-submenu {
     position: absolute;
-    opacity: 0;
     right: -100%;
     display: block;
     transform-origin: 0 0;
