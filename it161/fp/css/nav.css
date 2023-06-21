@@ -46,19 +46,32 @@
     z-index: 999;
 }
 
+#close-x {
+    font-size: xx-large;
+    cursor: pointer;
+}
+
 #nav-slide-menu ul {
     list-style-type: none;
-    margin: auto;
     z-index: inherit;
 }
 
 #nav-slide-menu li {
-    display: inline-block;
-    line-height: 1.5em;
+    display: block;
+    line-height: 2em;
     font-family: 'Futura LT';
     font-size: larger;
+    text-align: center;
     text-decoration: none;
     z-index: inherit;
+}
+
+#nav-slide-menu a{
+    color:#fff
+}
+
+#nav-slide-menu a.link-turns-pink:hover {
+    color: #961851;
 }
 
 .slide-menu-submenu {
@@ -77,6 +90,7 @@
     position: absolute; 
     top: -100%;
 }
+
 
 
 #menu-toggle:checked ~ #nav-slide-menu {
