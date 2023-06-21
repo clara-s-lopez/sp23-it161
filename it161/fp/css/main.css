@@ -544,12 +544,12 @@ footer {
 
 .copyright {
     font-size: 13px;
-    font-family: 'DIN Next LT Pro';
+    font-family: 'DIN Next LT Pro', sans-serif;
 }
 
 .code-checkers {
     font-size: 13px;
-    font-family: 'DIN Next LT Pro';
+    font-family: 'DIN Next LT Pro', sans-serif;
     color: #fff;
     grid-area: code-checkers; 
 }
