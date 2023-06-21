@@ -43,7 +43,7 @@
     background-color: #000;
     color: #fff;
     transition: right 0.3s ease-in-out;
-    z-index: 20;
+    z-index: 999;
 }
 
 #nav-slide-menu ul {

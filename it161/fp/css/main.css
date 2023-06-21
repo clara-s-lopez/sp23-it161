@@ -123,7 +123,7 @@ header {
     "header-content";
     justify-items: center;
     justify-content: center;
-    z-index: 100;
+    z-index: 25;
   }
 
 .header-content {
