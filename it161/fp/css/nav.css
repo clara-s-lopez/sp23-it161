@@ -85,11 +85,15 @@
     z-index: inherit;    
 }
 
+/* comment out to test checkbox state */
 .invisible-checkbox {
     position: absolute; 
     top: -100%;
 }
 
+
+/* chevron styles */
+/* https://css.gg/chevron-down */
 .gg-chevron-down {
     box-sizing: border-box;
     position: relative;
@@ -113,6 +117,9 @@
     left: 4px;
     top: 2px
 }
+/* ------------------------------------ */
+
+/* checked styles */
 
 #menu-toggle:checked ~ #nav-slide-menu {
     right: 0; /* Slide the menu into view when the checkbox is checked */
@@ -121,6 +128,38 @@
 #company-submenu-toggle:checked ~ #company-submenu {
     transform: scaleY(1);
 }
+
+/* changes to active-colored double chevron https://css.gg/chevron-double-down */
+#company-submenu-toggle:checked ~ #company-submenu-chevron {
+    color: #961851;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 22px;
+    height: 22px
+}
+
+#company-submenu-toggle:checked ~ #company-submenu-chevron::after, #company-submenu-chevron::before {
+    color: #961851;
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    left: 7px;
+    top: 3px
+}
+
+#company-submenu-toggle:checked ~ #company-submenu-chevron::after {
+    color: #961851;
+    top: 8px
+}
+
 
 #performances-submenu-toggle:checked ~ #performances-submenu {
     transform: scaleY(1);
