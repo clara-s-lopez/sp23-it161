@@ -726,6 +726,11 @@ footer {
         align-items: center; 
         grid-area: footer;
     }
+    
+    .footer-box {
+        width: 295px
+    }
+
 }
 
 /* PHONE */
