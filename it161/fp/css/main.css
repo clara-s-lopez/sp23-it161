@@ -779,7 +779,7 @@ footer {
     }
 
     main.wrapper {
-        max-width: 400px;
+        width 100%;
         justify-items: center;
         justify-content: center;
     }
@@ -800,7 +800,7 @@ footer {
     }
 
     .introduction {
-        height: 700px;
+        height: auto;
         display: grid; 
         grid-template-columns: 1fr; 
         grid-template-rows: 1fr 56px 56px; 
@@ -835,6 +835,13 @@ footer {
           ".";
         align-items: space-evenly;
       } 
+
+      .link-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
 
       /* rescale social links */
     .social-media > .social-container {
