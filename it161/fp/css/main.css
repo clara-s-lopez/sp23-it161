@@ -461,6 +461,7 @@ footer {
       "footer-navigation mailing-list contact"
       ". code-checkers .";
     z-index: inherit;
+    grid-area: footer;
 }
   
 .footer-navigation { grid-area: footer-navigation; }
