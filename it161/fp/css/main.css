@@ -509,9 +509,13 @@ footer {
     font-size: 18px;
 }
 
-.mailing-list { 
+.mailing-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     grid-area: mailing-list;
-    line-height: 0.5em;
+    line-height: 0.1em;
     height: 175px;
     color: #FFF;
     background-color: #000;
@@ -538,7 +542,7 @@ footer {
     font-size: 13.333px;
 }
 
-.contact { 
+.contact {
     grid-area: contact;
     line-height: 0.75em;
 }
@@ -716,15 +720,11 @@ footer {
         grid-template-areas: 
             "mailing-list contact"
             "code-checkers code-checkers"; 
-        justify-content: center; 
+        justify-content: stretch; 
         align-content: center;
         justify-items: center; 
         align-items: center; 
         grid-area: footer;
-    }
-
-    .footer-box {
-        width: 100%;
     }
 }
 
