@@ -735,13 +735,13 @@ footer {
         width: 100%;
         display: grid;
         grid:
-            "header" 161px
-            "navigation" 1fr
-            "gallery" 604px
-            "introduction" 700px
-            "links" 600px
-            "social-media" 187px
-            "footer" 400px  
+            "header" auto
+            "navigation" auto
+            "gallery" auto
+            "introduction" auto
+            "links" auto
+            "social-media" auto
+            "footer" auto  
             / 100%;
             justify-items: center;
         gap: 0px;
