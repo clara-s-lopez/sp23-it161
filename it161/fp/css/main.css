@@ -128,7 +128,7 @@ h2.body-content-subheader {
         "introduction" 451px
         "links" 474px
         "social-media" 187px
-        "footer" 1fr
+        "footer" 240px
         / 100%;
     gap: 0px;
     justify-items: stretch;
@@ -586,9 +586,9 @@ footer {
             "header" 161px
             "navigation" 1fr
             "gallery" 604px
-            "introduction" 650px
-            "links" 600px
-            "social-media" 187px
+            "introduction" 500px
+            "links" 720px
+            "social-media" 200px
             "footer" 240px
             / 100%;
         gap: 0px;
@@ -636,7 +636,7 @@ footer {
     }
 
     .introduction {
-        height: 451px;
+        height: 500px;
         padding: 20px 10px;
         color: #000;
         background-color: #FFFFFF;
@@ -647,7 +647,7 @@ footer {
         grid-template-areas: 
         "intro-text intro-text"
         "intro-learn-more intro-artistic-director"; 
-        align-content: center;
+        align-content: space-evenly;
         justify-content: stretch; 
     }
 
@@ -664,14 +664,14 @@ footer {
     /* rearrange links section into an alternating two-column layout */
 
     .links {
-        height: 660px;
+        height: 720px;
     }
 
     .link-grid {  
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 200px 200px 200px;
-        gap: 15px 0px;
+        gap: 40px 0px;
         grid-auto-flow: column;
         align-content: space-evenly;
         justify-items: stretch;
@@ -738,7 +738,7 @@ footer {
             "header" 161px
             "navigation" 1fr
             "gallery" 604px
-            "introduction" 650px
+            "introduction" 700px
             "links" 600px
             "social-media" 187px
             "footer" 400px  
@@ -795,7 +795,7 @@ footer {
     }
 
     .introduction {
-        height: 650px;
+        height: 700px;
         display: grid; 
         grid-template-columns: 1fr; 
         grid-template-rows: 1fr 56px 56px; 
