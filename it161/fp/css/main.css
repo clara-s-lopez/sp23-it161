@@ -123,11 +123,29 @@ article {
 
 section.productions-section {
     background-color: #000;
+    position: relative;
 }
 
 section.productions-section p {
     background-color: rgba(0,0,0,0.75);
     padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+/* picture on right, text on left */
+section.productions-section .picture-on-right .slideshow-container  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+section.productions-section .picture-on-right p {
+    text-align: left;
+    position: relative;
+    margin-right: 100%;
+    z-index: 2;
 }
 
 /* page layouts */
@@ -802,12 +820,12 @@ footer {
     }
 
 
-    .picture-on-left img {
+    .home .picture-on-left img {
         margin: 15px;
         float: left;
     }
 
-    .picture-on-right img {
+    .home .picture-on-right img {
         margin: 15px;
         float: right;
     }
