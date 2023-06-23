@@ -129,14 +129,13 @@ article {
 
 .productions-section {
     background-color: #000;
-    position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 section.productions-section p {
     background-color: rgba(0,0,0,0.75);
     padding: 20px;
-    position: relative;
     z-index: 2;
 }
 
@@ -148,17 +147,11 @@ section.productions-section p {
 
 /* picture on right, text on left */
 .picture-on-right .slideshow-container  {
-    float: right;
-    width: 60%;
     z-index: 1;
 }
 
 .picture-on-right p, h3 {
-    position: absolute;
-    left: 0;
     padding: 10px;
-    width: 40%;
-    text-align: left;
 }
 
 /* picture on left, text on right */
