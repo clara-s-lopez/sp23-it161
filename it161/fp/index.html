@@ -15,10 +15,10 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Install jQuery for Galleria -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <!-- Install Galleria -->
-    <script src="galleria/src/galleria.js"></script>
+    <link rel="stylesheet" href="css/slideshow.css">
+    <script src="js/main.js"></script>
+    <!-- Slideshow JavaScript -->
+    <script src="js/slideshow.js"></script>
  </head>
  <body class="home-layout">
   <header>
@@ -102,29 +102,161 @@
    <main class="wrapper">
     <section class="gallery">
       <h2 class="invisible-header">Gallery</h2>
-      <!-- https://galleriajs.github.io/docs/getting_started/beginners_guide.html#complete-code -->
-      <div id="galleria">
-        <img src="https://placehold.co/821x547" alt="placeholder gallery image">
-        <img src="https://placehold.co/821x547" alt="placeholder gallery image">
-        <img src="https://placehold.co/821x547" alt="placeholder gallery image">
+      <!-- https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+       <!-- Slideshow container -->
+      <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="images/galleries/home/1.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">1 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/2.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">2 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/3.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">3 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/4.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">4 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/5.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">5 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/6.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">6 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/7.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">7 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/8.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">8 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/9.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">9 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/10.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">10 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/11.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">11 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/12.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">12 / 21</span></div>
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="images/galleries/home/13.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">13 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/14.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">14 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/15.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">15 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/16.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">16 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/17.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">17 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/18.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">18 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/19.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">19 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/20.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">20 / 21</span></div>
+        </div>
+
+        <div class="mySlides fade">
+          <img src="images/galleries/home/21.webp" style="width:100%">
+          <div class="text">Caption Text<span class="numbertext">21 / 21</span></div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-      <!-- https://stackoverflow.com/a/16346599 -->
-      <script>
-        (function() {
-            Galleria.loadTheme('galleria/src/themes/twelve/galleria.twelve.js');
-                    Galleria.run('#galleria', {
-                      transition: 'fade',
-                      imageCrop: 'true',
-                      autoplay: 10000 
-                    });
-          }());
-      </script>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+        <span class="dot" onclick="currentSlide(11)"></span>
+        <span class="dot" onclick="currentSlide(12)"></span>
+        <span class="dot" onclick="currentSlide(13)"></span>
+        <span class="dot" onclick="currentSlide(14)"></span>
+        <span class="dot" onclick="currentSlide(15)"></span>
+        <span class="dot" onclick="currentSlide(16)"></span>
+        <span class="dot" onclick="currentSlide(17)"></span>
+        <span class="dot" onclick="currentSlide(18)"></span>
+        <span class="dot" onclick="currentSlide(19)"></span>
+        <span class="dot" onclick="currentSlide(20)"></span>
+        <span class="dot" onclick="currentSlide(21)"></span>
+
+
+
+      </div> 
+      <div class="gallery-overlay">
+        <span class="close-btn">&times;</span>
+        <img class="overlay-image" src="" alt="Full-size Image">
+      </div>
+      
+
     </section>
     <section>
       <h2 class="invisible-header">Introduction</h2>
       <article class="introduction">
         <picture class="intro-photo">
-          <img src="https://placehold.co/232x336" alt="Estela Velez de Paredez and Daniel Paredez dancing">
+          <img src="images/pages/home/intro.webp" alt="Estela Velez de Paredez and Daniel Paredez dancing">
         </picture>
         <div class="intro-text">
           <h2 class="intro-header">About Furia Flamenca</h2>
@@ -141,7 +273,7 @@
       <div class="link-grid">
         <div class="item">
           <div class="link-content picture-on-left">
-            <a href="#" class="link-turns-pink"><img src="https://placehold.co/295x170" width="295" height="170" alt="a dance class"></a>
+            <a href="#" class="link-turns-pink"><img src="images/pages/home/classes.webp" width="295" height="170" alt="a dance class"></a>
             <a href="#" class="link-box-header link-turns-pink">Classes!</a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <a href="#" class="learn-more link-turns-pink">Learn more</a>
@@ -149,7 +281,7 @@
         </div>
         <div class="item">
           <div class="link-content picture-on-right">
-            <a href="#" class="link-turns-pink"><img src="https://placehold.co/295x170" width="295" height="170" alt="a performance"></a>
+            <a href="#" class="link-turns-pink"><img src="images/pages/home/performances.webp" width="295" height="170" alt="a performance"></a>
             <a href="#" class="link-box-header link-turns-pink">Performances</a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <a href="#" class="learn-more link-turns-pink">Learn more</a>
@@ -157,7 +289,7 @@
         </div>
         <div class="item">
           <div class="link-content picture-on-left">
-            <a href="#" class="link-turns-pink"><img src="https://placehold.co/295x170" width="295" height="170" alt="the Furia Flamenca dance company"></a>
+            <a href="#" class="link-turns-pink"><img src="images/pages/home/the-company.webp" width="295" height="170" alt="the Furia Flamenca dance company"></a>
             <a href="#" class="link-box-header link-turns-pink">The&nbsp;Company</a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <a href="#" class="learn-more link-turns-pink">Learn more</a>
@@ -176,39 +308,38 @@
         <div><a href="#" title="Furia Flamenca Pinterest page"><i class="fa fa-pinterest social-link fa-xl" id="social-pinterest"></i></a></div>
       </div>
     </section>
+  </main>
     
 <!-- START PAGE FOOTER -->
-    <footer>
-      <div class="footer-navigation footer-box">
-        <nav>
-          <div><a href="index.html">Home</a></div>  
-          <div><a href="artistic-director.html">Artistic Director</a></div>  
-          <div><a href="the-company.html">The Company</a></div>  
-          <div><a href="flamenco-classes.html">Classes</a></div>  
-          <div><a href="performances.html">Performances</a></div>  
-          <div><a href="contact-us.html">Contact Us</a></div> 
-        </nav>
-      </div>
-      <form class="mailing-list">
-        <p>Join our mailing list!</p>
-        <p>Never miss an update!</p>
-        <input id="email-input" type="email" placeholder="Email Address" maxlength="250" aria-label="Email Address" aria-required="true" name="email" pattern="^.+@.+\.[a-zA-Z]{2,63}$">
-        <button id="subscribe-now">Subscribe Now</button>
-      </form>
-      <div class="contact footer-box">
-        <p>Contact Furia Flamenca</p>
-        <p><a href="#">FuriaFlamenca@gmail.com</a></p>
-        <p>703-568-4404</p>
-        <p><small class="copyright">&copy; <span id="this-year"></span> by 
-        Furia Flamenca, All Rights Reserved</small></p>
-      </div>
-      <div class="code-checkers">
-        <small><a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
-        <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
-      </div>     
-    </footer>
-  </main>
-  <script src="js/main.js"></script>   
+  <footer>
+    <div class="footer-navigation footer-box">
+      <nav>
+        <div><a href="index.html">Home</a></div>  
+        <div><a href="artistic-director.html">Artistic Director</a></div>  
+        <div><a href="the-company.html">The Company</a></div>  
+        <div><a href="flamenco-classes.html">Classes</a></div>  
+        <div><a href="performances.html">Performances</a></div>  
+        <div><a href="contact-us.html">Contact Us</a></div> 
+      </nav>
+    </div>
+    <form class="mailing-list">
+      <p>Join our mailing list!</p>
+      <p>Never miss an update!</p>
+      <input id="email-input" type="email" placeholder="Email Address" maxlength="250" aria-label="Email Address" aria-required="true" name="email" pattern="^.+@.+\.[a-zA-Z]{2,63}$">
+      <button id="subscribe-now">Subscribe Now</button>
+    </form>
+    <div class="contact footer-box">
+      <p>Contact Furia Flamenca</p>
+      <p><a href="#">FuriaFlamenca@gmail.com</a></p>
+      <p>703-568-4404</p>
+      <p><small class="copyright">&copy; <span id="this-year"></span> by 
+      Furia Flamenca, All Rights Reserved</small></p>
+    </div>
+    <div class="code-checkers">
+      <small><a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
+      <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
+    </div>     
+  </footer>   
  </body>
 </html>
 <!-- END PAGE FOOTER -->
