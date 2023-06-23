@@ -116,9 +116,9 @@ em {
     justify-items: center;
 }
 
-.about-us-links > p {
+.about-us-links a {
     text-align: center;
-}
+  }
 
 /* end topic page styles */
 
