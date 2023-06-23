@@ -189,6 +189,7 @@ header {
     align-items: center;
     justify-self: center;
     align-self: start;
+    z-index: inherit;
   }
 
 .ff-logo {
