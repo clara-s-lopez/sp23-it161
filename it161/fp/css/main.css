@@ -818,11 +818,15 @@ footer {
             "mailing-list" 
             "contact"
             "code-checkers"; 
-        justify-content: center; 
+        justify-content: stretch; 
         align-content: center;
         justify-items: center; 
         align-items: center; 
         grid-area: footer;
+    }
+
+    .mailing-list {
+        width: 100%;
     }
 
     .footer-box {
