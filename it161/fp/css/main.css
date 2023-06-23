@@ -140,7 +140,7 @@ section.productions-section p {
     z-index: 2;
 }
 
-.section.productions-section > .med-header {
+.productions-section > h3.med-header {
     padding: 10px;
     margin: 0px 10px;
     z-index: 2; 
