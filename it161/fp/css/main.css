@@ -63,8 +63,6 @@ h2.invisible-header {
 
 .body-content p {
     font-family: 'Futura LT', sans-serif;
-    text-align: justify;
-    text-justify: inter-word;
 }
 
 h2.body-content-header {
@@ -192,6 +190,8 @@ main.home {
         "gallery" auto
         "article" auto
         / 100%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .about-us {
@@ -202,6 +202,8 @@ main.home {
         "article" auto
         / 100%;
     justify-items: stretch;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .performances {
@@ -222,6 +224,16 @@ main.home {
         "article" auto
         / 100%;
     justify-items: stretch;
+}
+
+.principal-dancers {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.corp-dancers {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* end page layouts */
