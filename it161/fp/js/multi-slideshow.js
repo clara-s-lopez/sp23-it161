@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function plusSlides(n, slideshowIndex) {
-  showSlides(slideIndex[slideshowIndex-1] + n, slideshowIndex);
+  showSlides(slideIndex[slideshowIndex - 1] + n, slideshowIndex);
 }
 
 function currentSlide(n, slideshowIndex) {
@@ -42,8 +42,8 @@ function currentSlide(n, slideshowIndex) {
 }
 
 function showSlides(n, slideshowIndex) {
-  let slides = document.querySelectorAll("#slideshow" + slideshowIndex + " .mySlides");
-  let dots = document.querySelectorAll("#slideshow" + slideshowIndex + " .dot");
+  let slides = document.querySelectorAll(`#slideshow${slideshowIndex} .mySlides`);
+  let dots = document.querySelectorAll(`#slideshow${slideshowIndex} .dot`);
   let slideIndex;
 
   // Set the appropriate slideIndex based on the slideshowIndex
@@ -75,8 +75,10 @@ function showSlides(n, slideshowIndex) {
   });
 
   // Display the current slide and update the active dot
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1]?.classList.add("active");
+  if (slides.length > 0) {
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1]?.classList.add("active");
+  }
 
   // Update the appropriate slideIndex variable
   if (slideshowIndex === 1) {
@@ -92,9 +94,10 @@ function showSlides(n, slideshowIndex) {
   }
 }
 
+
 // Automatic slideshow for each slideshow
 function startSlideshow(slideshowIndex) {
-  let slides = document.querySelectorAll("#slideshow" + slideshowIndex + " .mySlides");
+  let slides = document.querySelectorAll(`#slideshow${slideshowIndex} .mySlides`);
   let slideIndex;
 
   // Set the appropriate slideIndex based on the slideshowIndex
@@ -128,4 +131,13 @@ document.addEventListener("DOMContentLoaded", function () {
   for (let i = 1; i <= 5; i++) {
     startSlideshow(i);
   }
+});
+
+// Event listeners for dot navigation
+document.querySelectorAll(".dot").forEach(function (dot) {
+  dot.addEventListener("click", function () {
+    let slideshowIndex = parseInt(dot.dataset.slideshowIndex);
+    let slideIndex = parseInt(dot.dataset.slideIndex);
+    currentSlide(slideIndex, slideshowIndex);
+  });
 });
