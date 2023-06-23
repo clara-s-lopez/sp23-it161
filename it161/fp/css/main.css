@@ -84,6 +84,10 @@ h2.body-content-subheader {
     color: #961851;
 }
 
+.body-content img {
+    padding: 20px;
+}
+
 /* end topic page styles */
 
 /* start positioning styles */
