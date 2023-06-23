@@ -140,6 +140,12 @@ section.productions-section p {
     z-index: 2;
 }
 
+.section.productions-section > .med-header {
+    padding: 10px;
+    margin: 0px 10px;
+    z-index: 2; 
+}
+
 /* picture on right, text on left */
 section.productions-section .picture-on-right .slideshow-container  {
     position: relative;
