@@ -584,21 +584,6 @@ footer {
 /* TABLET */
 @media all and (min-width:664px) and (max-width:979px) {
 
-    .home-layout {
-        width: 100%;
-        display: grid;
-        grid:
-            "header" auto
-            "navigation" auto
-            "gallery" auto
-            "introduction" auto
-            "links" auto
-            "social-media" auto
-            "footer" auto
-            / 100%;
-        gap: 0px;
-    }
-
     .header-content {
         width: 100vw;
         min-width: 430px;
@@ -736,22 +721,6 @@ footer {
 
 /* PHONE */
 @media all and (max-width:663px) {
-    
-        .home-layout {
-        width: 100%;
-        display: grid;
-        grid:
-            "header" auto
-            "navigation" auto
-            "gallery" auto
-            "introduction" auto
-            "links" auto
-            "social-media" auto
-            "footer" auto  
-            / 100%;
-            justify-items: center;
-        gap: 0px;
-    }
 
     .header-content {
         width: 100vw;
