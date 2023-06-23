@@ -175,18 +175,9 @@ main.home {
 
 .resources-photos {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    align-content: start
+    align-items: flex-start;
+    justify-content: center;
 }
-
-.resources-photos img {
-        flex: 0 0 auto;
-        margin: 10px;
-}
-
 
 /* end topic page styles */
 
