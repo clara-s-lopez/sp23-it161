@@ -68,6 +68,9 @@ h2.invisible-header {
 }
 
 h2.body-content-header {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
     font-family: 'Futura LT', sans-serif;
     font-weight: normal;
     color: #FFF;
@@ -76,6 +79,9 @@ h2.body-content-header {
 }
 
 h2.body-content-subheader {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
     font-family: 'Futura LT', sans-serif;
     font-weight: normal;
     color: #FFF;
