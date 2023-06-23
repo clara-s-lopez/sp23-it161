@@ -125,6 +125,10 @@ article {
     padding: 0px;
 }
 
+.resources-text {
+    color: #e6c2f5;
+}
+
 section.productions-section {
     background-color: #000;
     position: relative;
