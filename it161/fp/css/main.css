@@ -118,21 +118,30 @@ h2.body-content-subheader {
 
  /* grid rules start here */
 
-.home-layout {
+.layout {
     width: 100%;
     display: grid;
     grid:
         "header" auto
         "navigation" auto
-        "gallery" auto
-        "introduction" auto
-        "links" auto
-        "social-media" auto
+        "main-content" auto
         "footer" auto
         / 100%;
     gap: 0px;
     justify-items: stretch;
   }
+
+main.home {
+    display: grid;
+    grid:
+        "gallery" auto
+        "introduction" auto
+        "links" auto
+        "social-media" auto
+        / 100%;
+    gap: 0px;
+    justify-items: stretch;    
+}
 
 /* start header rules */
 
