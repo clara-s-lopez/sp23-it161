@@ -62,12 +62,19 @@ h2.invisible-header {
 }
 
 h2.body-content-header {
+    text-align: center;
     font-size: 50px;
 }
 
 h2.body-content-subheader {
+    text-align: center;
     font-size: 32px;
 }
+
+.body-content > em {
+    color: #961851;
+}
+
 /* end topic page styles */
 
 /* start positioning styles */
