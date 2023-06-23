@@ -305,7 +305,7 @@ h2.intro-header {
 
 /* start gallery rules */
 .gallery { 
-    height: 604px;
+    height: 620px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 558px;
