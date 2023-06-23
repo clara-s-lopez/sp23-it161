@@ -115,6 +115,12 @@ article {
     margin: 0px;
 }
 
+.resources-subheader {
+    font-family: 'Futura LT', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
 section.productions-section {
     background-color: #000;
 }
