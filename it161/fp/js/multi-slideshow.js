@@ -138,6 +138,7 @@ function startSlideshow(slideshowIndex) {
 
 // Call the startSlideshow function for each slideshow
 document.addEventListener("DOMContentLoaded", function() {
-  while (let i = 0; i <= 5; i++)
-  startSlideshow(i);
+  for (let i = 0; i <= 5; i++) {
+    startSlideshow(i);
+  }
 });
