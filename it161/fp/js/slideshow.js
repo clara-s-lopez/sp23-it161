@@ -36,3 +36,26 @@ function startSlideshow() {
   showSlides(slideIndex);
   setTimeout(startSlideshow, 5000); // Change image every 5 seconds
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  startSlideshow();
+  showSlides(slideIndex);
+
+  const overlay = document.querySelector('.gallery-overlay');
+  const overlayImage = overlay.querySelector('.overlay-image');
+  const slides = document.querySelectorAll('.mySlides');
+
+  slides.forEach(function(slide, index) {
+    slide.addEventListener('click', function() {
+      slideIndex = index;
+      showSlides(slideIndex);
+      overlayImage.src = slide.querySelector('img').src;
+      overlay.style.display = 'flex';
+    });
+  });
+
+  const closeBtn = overlay.querySelector('.close-btn');
+  closeBtn.addEventListener('click', function() {
+    overlay.style.display = 'none';
+  });
+});
