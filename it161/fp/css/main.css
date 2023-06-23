@@ -97,6 +97,15 @@ em {
     padding: 20px;
 }
 
+.artistic-director {
+    display: grid;
+    grid:
+        "page-subheader"
+        "gallery" auto
+        "bio" auto
+        / 100%;
+}
+
 /* end topic page styles */
 
 /* start positioning styles */
@@ -328,6 +337,7 @@ h2.intro-header {
 
 /* start gallery rules */
 .gallery { 
+    grid-area: gallery;
     height: auto;
     display: flex;
     flex-direction: column;
