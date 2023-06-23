@@ -155,6 +155,16 @@ section.productions-section .picture-on-right p {
     z-index: 2;
 }
 
+/* picture on left, text on right */
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
+
 #performances-notice {
     font-family: 'Futura LT', sans-serif;
     font-size: 22px;
@@ -167,6 +177,13 @@ section.productions-section .picture-on-right p {
     font-size: 32px;
     font-family: 'Futura LT', sans-serif;
     font-weight: normal;
+}
+
+.upcoming-performance {
+    font-size: 28px;
+    font-family: 'Futura LT', sans-serif;
+    text-decoration-line: underline;
+    color: rgb(204, 26, 105);
 }
 
 /* page layouts */
