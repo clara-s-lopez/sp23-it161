@@ -157,6 +157,14 @@ section.productions-section .picture-on-right p {
     z-index: 2;
 }
 
+.performances strong {
+    font-family: 'Futura LT', sans-serif;
+    font-size: 22px;
+    color: #961851;
+    font-weight: normal;
+    text-align: center;
+}
+
 /* page layouts */
 
 main.home {
