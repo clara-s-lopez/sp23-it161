@@ -139,6 +139,7 @@
 
 .productions .mySlides > img {
   height: 320px;
+  object-fit: contain;
   aspect-ratio: 980/558;
 }
 
