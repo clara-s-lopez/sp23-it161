@@ -2,38 +2,36 @@
 let slideIndex1 = 0;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(1);
-  showSlides(slideIndex1);
+  showSlides(slideIndex1, 1);
 });
 
 // Second Slideshow
 let slideIndex2 = 0;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(2);
-  showSlides(slideIndex2);
+  showSlides(slideIndex1, 2);
 });
 
 // Third Slideshow
 let slideIndex3 = 0;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(3);
-  showSlides(slideIndex3);
+  showSlides(slideIndex1, 3);
 });
 
 // Fourth Slideshow
 let slideIndex4 = 0;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(4);
-  showSlides(slideIndex4);
+  showSlides(slideIndex1, 4);
 });
 
 // Fifth Slideshow
 let slideIndex5 = 0;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(5);
-  showSlides(slideIndex5);
+  showSlides(slideIndex1, 5);
 });
-
-// Add more variables and event listeners as needed for additional slideshows
 
 function plusSlides(n, slideshowIndex) {
   showSlides(slideIndex + n, slideshowIndex);
@@ -45,7 +43,7 @@ function currentSlide(n, slideshowIndex) {
 
 function showSlides(n, slideshowIndex) {
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
+  let dots = document.getElementsById("dots" + slideshowIndex).getElementsByClassName("dot");
   let slideIndex;
 
   // Set the appropriate slideIndex based on the slideshowIndex
@@ -140,9 +138,6 @@ function startSlideshow(slideshowIndex) {
 
 // Call the startSlideshow function for each slideshow
 document.addEventListener("DOMContentLoaded", function() {
-  startSlideshow(1);
-  startSlideshow(2);
-  startSlideshow(3);
-  startSlideshow(4);
-  startSlideshow(5);
+  while (let i = 0; i <= 5; i++)
+  startSlideshow(i);
 });
