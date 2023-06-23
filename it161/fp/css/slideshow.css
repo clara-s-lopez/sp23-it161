@@ -132,6 +132,18 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+/* productions slideshows are more compact ------------------------------------------------------- */
+.productions .dot {
+  margin: 0px 2px;
+} 
+
+.mySlides > img {
+  width: 100%;
+  height: 558px;
+  aspect-ratio: 980/558;
+}
+
+
 @media all and (max-width:979px) {
   /* maintain aspect ratio at smaller screen sizes */
   .mySlides > img {
@@ -139,3 +151,6 @@
     aspect-ratio: 980/558;
   }
 }
+
+
+
