@@ -4,7 +4,7 @@
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: 10px auto;
+  margin: 26px auto 10px;
 }
 
 /* Hide the images by default */
@@ -18,8 +18,8 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   width: auto;
-  margin-top: -22px;
   padding: 16px;
   color: white;
   font-weight: bold;
@@ -71,7 +71,7 @@
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 18px 2px 0px;
+  margin: 0px 2px 10px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;

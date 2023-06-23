@@ -305,26 +305,13 @@ h2.intro-header {
 
 /* start gallery rules */
 .gallery { 
-    height: 620px;
-    display: grid;
+    height: auto;
+    display: flex;
+    flex-direction: column;
     grid-template-columns: 1fr;
-    grid-template-rows: 558px;
-    gap: 0px 0px;
-    grid-template-areas: 
-    "galleria";
     justify-content: center;
     align-content: center;
     z-index: inherit;
-}
-
-#galleria { 
-    width: 980px; 
-    height: 558px;
-    aspect-ratio: 980/558;
-    background: #000;
-    grid-area: galleria;
-    justify-self: center;
-    align-content: center;
 }
 /* end gallery rules */
 
@@ -787,11 +774,6 @@ footer {
     h1 {
         width: 100%;
         padding-left: 1%;
-    }
-
-    #galleria {
-        width: 100vw;
-        aspect-ratio: 980/558;
     }
 
 /* hide intro photo and arrange buttons in a single column */
