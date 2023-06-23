@@ -105,22 +105,6 @@ em {
 * {
     box-sizing: border-box;
 }
- 
- 
- /* Create two equal columns that floats next to each other */
- .my-column {
-    color: black;
-    float: left;
-    width: 50%;
-    padding: 10px;
-    min-height: 300px; /* Can be removed. Only for demonstration */
-}
-   /* Clear floats after the columns */
-.my-row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
   
   @media all and (max-width:663px) {
