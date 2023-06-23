@@ -117,8 +117,9 @@ em {
 }
 
 .about-us-links > .link-content > p > a {
-    text-align: center;
-  }
+    margin: auto;
+
+}
 
 /* end topic page styles */
 
