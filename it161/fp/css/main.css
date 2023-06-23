@@ -340,7 +340,12 @@ h2.intro-header {
     z-index: 1; 
 }
 
-.intro-photo { grid-area: intro-photo; }
+.intro-photo { 
+    width: 232px;
+    height: 336px;
+    grid-area: intro-photo; 
+}
+
 .intro-learn-more { grid-area: intro-learn-more; }
 .intro-artistic-director { grid-area: intro-artistic-director; }
 .intro-button {
