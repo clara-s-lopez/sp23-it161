@@ -164,6 +164,10 @@ section.productions-section .picture-on-right p {
 /**/
 /**/
 
+.performances {
+    font-family: 'Futura LT', sans-serif;
+    font-size: 18pt;
+}
 
 #performances-notice {
     font-family: 'Futura LT', sans-serif;
