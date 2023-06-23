@@ -89,6 +89,10 @@ h2.body-content-subheader {
     font-size: 32px;
 }
 
+.page-subheader {
+    margin: 20px 0px;
+}
+
 em {
     color: #c61965;
 }
@@ -124,6 +128,7 @@ article {
 section.productions-section {
     background-color: #000;
     position: relative;
+    overflow: hidden;
 }
 
 section.productions-section p {
@@ -135,7 +140,7 @@ section.productions-section p {
 
 /* picture on right, text on left */
 section.productions-section .picture-on-right .slideshow-container  {
-    position: absolute;
+    position: relative;
     top: 0;
     right: 0;
     z-index: 1;
@@ -144,7 +149,7 @@ section.productions-section .picture-on-right .slideshow-container  {
 section.productions-section .picture-on-right p {
     text-align: left;
     position: relative;
-    margin-right: 100%;
+    margin-left: 0;
     z-index: 2;
 }
 
