@@ -641,16 +641,6 @@ footer {
         justify-content: stretch; 
     }
 
-    /* allow gallery width to vary with screen width, but maintain aspect ratio */
-    #galleria { 
-        width: 100vw; 
-        aspect-ratio: 980/558;
-        background: #000;
-        grid-area: galleria;
-        justify-self: center;
-        align-content: center;
-    }
-
     /* rearrange links section into an alternating two-column layout */
 
     .links {
