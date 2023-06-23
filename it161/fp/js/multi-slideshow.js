@@ -53,8 +53,24 @@ function plusSlides(n, slideshowIndex) {
 } 
 
 function currentSlide(n, slideshowIndex) {
-  showSlides(n, slideshowIndex);
+  if (slideshowIndex === 1) {
+    slideIndex1 = n;
+    showSlides(slideIndex1, slideshowIndex);
+  } else if (slideshowIndex === 2) {
+    slideIndex2 = n;
+    showSlides(slideIndex2, slideshowIndex);
+  } else if (slideshowIndex === 3) {
+    slideIndex3 = n;
+    showSlides(slideIndex3, slideshowIndex);
+  } else if (slideshowIndex === 4) {
+    slideIndex4 = n;
+    showSlides(slideIndex4, slideshowIndex);
+  } else if (slideshowIndex === 5) {
+    slideIndex5 = n;
+    showSlides(slideIndex5, slideshowIndex);
+  }
 }
+
 
 function showSlides(n, slideshowIndex) {
   let slides = document.querySelectorAll(`#slideshow${slideshowIndex} .mySlides`);
