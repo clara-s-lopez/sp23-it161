@@ -197,6 +197,7 @@ main.home {
         "article" auto
         / 100%;
     justify-items: stretch;
+    text-align: center;
 }
 
 .resources {
