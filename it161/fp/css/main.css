@@ -97,14 +97,48 @@ em {
     padding: 20px;
 }
 
+.body-content img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+article {
+    grid-area: article;
+}
+
+/* page layouts */
+
+main.home {
+    display: grid;
+    grid:
+        "gallery" auto
+        "introduction" auto
+        "links" auto
+        "social-media" auto
+        / 100%;
+    gap: 0px;
+    justify-items: stretch;    
+}
+
 .artistic-director {
     display: grid;
     grid:
-        "page-subheader"
+        "page-subheader" auto
         "gallery" auto
-        "bio" auto
+        "article" auto
         / 100%;
 }
+
+.about-us {
+    display: grid;
+    grid: 
+        "page-subheader" auto
+        "article" auto
+        / 100%;
+    justify-items: stretch;
+}
+
+
 
 .about-us-links {
     display: grid; 
