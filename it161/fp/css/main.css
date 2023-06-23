@@ -138,7 +138,26 @@ main.home {
     justify-items: stretch;
 }
 
+.performances {
+    display: grid;
+    grid:
+        "page-subheader" auto
+        "article" auto
+        / 100%;
+    justify-items: stretch;
+}
 
+.resources {
+    display: grid;
+    grid:
+        "page-subheader" auto
+        "resources-photos" auto
+        "article" auto
+        / 100%;
+    justify-items: stretch;
+}
+
+/* end page layouts */
 
 .about-us-links {
     display: grid; 
@@ -153,6 +172,21 @@ main.home {
 .about-us-links > .link-content > p > a {
     margin: auto;
 }
+
+.resources-photos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    align-content: start
+}
+
+.resources-photos img {
+        flex: 0 0 auto;
+        margin: 10px;
+}
+
 
 /* end topic page styles */
 
