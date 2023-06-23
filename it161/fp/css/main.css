@@ -114,11 +114,7 @@ em {
     align-items: center;
     align-content: center;
     justify-items: center;
-}
-
-.about-us-links > .link-content > p > a {
-    margin: auto;
-
+    max-width: 100%;
 }
 
 /* end topic page styles */
@@ -427,6 +423,8 @@ h2.intro-header {
 }
 
 .link-content {
+    display: flex;
+    flex-direction: column;
     color: #FFF;
     background-color: rgba(0,0,0,0.75);
     font-weight: normal;
@@ -701,7 +699,8 @@ footer {
         align-items: center;
       }      
     
-    .link-content { 
+    .link-content {
+        display: block;
         min-height: 200px;
     }
 
@@ -833,8 +832,9 @@ footer {
       .link-content {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: space-evenly;
         justify-content: center;
+        align-content: space-evenly;
       }
 
       /* rescale social links */
