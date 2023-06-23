@@ -16,6 +16,7 @@
 .mySlides > img {
   width: 100%;
   height: 558px;
+  aspect-ratio: 980/558;
 }
 
 /* Next & previous buttons */
@@ -129,4 +130,12 @@
   max-width: 90%;
   max-height: 90%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media all and (max-width:979px) {
+  /* maintain aspect ratio at smaller screen sizes */
+  .mySlides > img {
+    height: auto;
+    aspect-ratio: 980/558;
+  }
 }
