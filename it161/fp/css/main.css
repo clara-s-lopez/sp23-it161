@@ -412,12 +412,13 @@ h1 {
     margin: 0px;
     line-height: 1.2em;
     overflow-wrap: break-word;
-    max-lines: 2;
 }
 
 .furia-flamenca {
     font-family: 'DIN Next LT Pro', sans-serif;
     font-size: 39px;
+    max-height: 2em;
+    max-lines: 2;
 }
 
 .estela-velez {
