@@ -165,6 +165,12 @@ section.productions-section .picture-on-right p {
     text-align: center;
 }
 
+.performances h3 {
+    font-size: 32px;
+    font-family: 'Futura LT', sans-serif;
+    font-weight: normal;
+}
+
 /* page layouts */
 
 main.home {
