@@ -76,7 +76,7 @@ function showSlides(n, slideshowIndex) {
 
   // Display the current slide and update the active dot
   slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].classList.add("active");
+  dots[slideIndex - 1]?.classList.add("active");
 
   // Update the appropriate slideIndex variable
   if (slideshowIndex === 1) {
