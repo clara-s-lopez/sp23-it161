@@ -129,20 +129,13 @@ article {
 
 .productions-section {
     background-color: #000;
-    position: relative;
     overflow: hidden;
     display: flex;
 }
 
 .productions-text {
     white-space: nowrap;
-}
-
-section.productions-section p {
     background-color: rgba(0,0,0,0.75);
-    padding: 20px;
-    position: relative;
-    z-index: 2;
 }
 
 .productions-section > h3.med-header {
@@ -151,29 +144,31 @@ section.productions-section p {
     z-index: 2;
 }
 
-/* picture on right, text on left */
-.picture-on-right .slideshow-container  {
-    float: right;
-    width: 60%;
+.productions-section .slideshow-container {
     z-index: 1;
 }
 
-.picture-on-right p, h3 {
-    position: absolute;
-    left: 0;
-    padding: 10px;
-    width: 40%;
+/* picture on right, text on left */
+.productions-section {
+    flex-direction: row;
+}
+
+.picture-on-right .slideshow-container  {
+    z-index: 1;
+}
+
+.picture-on-right .productions-text {
     text-align: left;
 }
 
 /* picture on left, text on right */
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+.productions-section {
+    flex-direction: row-reverse;
+}
+
+.picture-on-left .productions-text {
+    text-align: right;
+}
 
 .performances {
     font-family: 'Futura LT', sans-serif;
