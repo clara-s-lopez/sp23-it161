@@ -125,6 +125,11 @@ section.productions-section {
     background-color: #000;
 }
 
+section.productions-section p {
+    background-color: rgba(0,0,0,0.75);
+    padding: 20px;
+}
+
 /* page layouts */
 
 main.home {
