@@ -69,6 +69,7 @@ h2.invisible-header {
 
 h2.body-content-header {
     font-family: 'Futura LT', sans-serif;
+    font-weight: normal;
     color: #FFF;
     text-align: center;
     font-size: 50px;
@@ -76,6 +77,7 @@ h2.body-content-header {
 
 h2.body-content-subheader {
     font-family: 'Futura LT', sans-serif;
+    font-weight: normal;
     color: #FFF;
     text-align: center;
     font-size: 32px;
