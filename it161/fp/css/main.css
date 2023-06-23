@@ -190,6 +190,13 @@ section.productions-section .picture-on-right p {
     color: rgb(204, 26, 105);
 }
 
+.performances h4 {
+    font-size: 30px;
+    font-family: 'Futura LT', sans-serif;
+    color: rgb(204, 26, 105);
+    font-weight: normal;
+}
+
 /* page layouts */
 
 main.home {
