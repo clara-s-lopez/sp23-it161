@@ -782,7 +782,7 @@ footer {
         gap: 15px 0px;
         grid-auto-flow: column;
         align-content: space-evenly;
-        justify-items: center;
+        justify-items: stretch;
         justify-content: center;
         grid-template-areas:
           "."
