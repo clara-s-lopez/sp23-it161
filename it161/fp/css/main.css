@@ -131,6 +131,11 @@ article {
     background-color: #000;
     position: relative;
     overflow: hidden;
+    display: flex;
+}
+
+.productions-text {
+    white-space: nowrap;
 }
 
 section.productions-section p {
@@ -143,7 +148,7 @@ section.productions-section p {
 .productions-section > h3.med-header {
     padding: 10px;
     margin: 0px 10px;
-    z-index: 2; 
+    z-index: 2;
 }
 
 /* picture on right, text on left */
