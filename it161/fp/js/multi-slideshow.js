@@ -1,33 +1,33 @@
 // First Slideshow
-let slideIndex1 = 0;
+let slideIndex1 = 1;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(1);
   showSlides(slideIndex1, 1);
 });
 
 // Second Slideshow
-let slideIndex2 = 0;
+let slideIndex2 = 1;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(2);
   showSlides(slideIndex1, 2);
 });
 
 // Third Slideshow
-let slideIndex3 = 0;
+let slideIndex3 = 1;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(3);
   showSlides(slideIndex1, 3);
 });
 
 // Fourth Slideshow
-let slideIndex4 = 0;
+let slideIndex4 = 1;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(4);
   showSlides(slideIndex1, 4);
 });
 
 // Fifth Slideshow
-let slideIndex5 = 0;
+let slideIndex5 = 1;
 document.addEventListener("DOMContentLoaded", function() {
   startSlideshow(5);
   showSlides(slideIndex1, 5);
@@ -85,7 +85,7 @@ function showSlides(n, slideshowIndex) {
 
     // Update the appropriate slideIndex variable
     if (slideshowIndex === 1) {
-            slideIndex1 = slideIndex;
+        slideIndex1 = slideIndex;
     } 
     else if (slideshowIndex === 2) {
         slideIndex2 = slideIndex;
