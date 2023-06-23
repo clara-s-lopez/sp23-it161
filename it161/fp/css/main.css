@@ -93,7 +93,7 @@ em {
     color: #c61965;
 }
 
-.body-content img {
+.body-content > article > img {
     padding: 20px;
 }
 
