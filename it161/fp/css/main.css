@@ -127,7 +127,7 @@ article {
     color: #e6c2f5;
 }
 
-section.productions-section {
+.productions-section {
     background-color: #000;
     position: relative;
     overflow: hidden;
@@ -147,18 +147,18 @@ section.productions-section p {
 }
 
 /* picture on right, text on left */
-section.productions-section .picture-on-right .slideshow-container  {
-    position: relative;
-    top: 0;
-    right: 0;
+.picture-on-right .slideshow-container  {
+    float: right;
+    width: 60%;
     z-index: 1;
 }
 
-section.productions-section .picture-on-right p {
+.picture-on-right p, h3 {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    width: 40%;
     text-align: left;
-    position: relative;
-    margin-left: 0;
-    z-index: 2;
 }
 
 /* picture on left, text on right */
