@@ -43,7 +43,7 @@ function currentSlide(n, slideshowIndex) {
 
 function showSlides(n, slideshowIndex) {
   let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsById("dots" + slideshowIndex).getElementsByClassName("dot");
+  let dots = document.getElementById("dots" + slideshowIndex).getElementsByClassName("dot");
   let slideIndex;
 
   // Set the appropriate slideIndex based on the slideshowIndex
