@@ -131,6 +131,9 @@ article {
     background-color: #000;
     overflow: hidden;
     display: flex;
+    justify-content: space-evenly;
+    justify-items: stretch;
+    align-items: center;
 }
 
 .productions-text {
@@ -145,6 +148,8 @@ article {
 }
 
 .productions-section .slideshow-container {
+    display: flex;
+    flex-direction: column;
     z-index: 1;
 }
 
