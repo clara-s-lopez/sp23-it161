@@ -34,8 +34,23 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function plusSlides(n, slideshowIndex) {
-  showSlides(slideIndex[slideshowIndex - 1] + n, slideshowIndex);
-}
+  if (slideshowIndex === 1) {
+    slideIndex1 += n;
+    showSlides(slideIndex1, slideshowIndex);
+  } else if (slideshowIndex === 2) {
+    slideIndex2 += n;
+    showSlides(slideIndex2, slideshowIndex);
+  } else if (slideshowIndex === 3) {
+    slideIndex3 += n;
+    showSlides(slideIndex3, slideshowIndex);
+  } else if (slideshowIndex === 4) {
+    slideIndex4 += n;
+    showSlides(slideIndex4, slideshowIndex);
+  } else if (slideshowIndex === 5) {
+    slideIndex5 += n;
+    showSlides(slideIndex5, slideshowIndex);
+  }
+} 
 
 function currentSlide(n, slideshowIndex) {
   showSlides(n, slideshowIndex);
@@ -113,25 +128,38 @@ function startSlideshow(slideshowIndex) {
     slideIndex = slideIndex5;
   }
 
-  // Increment the slideIndex and show the slides
+  // Hide all slides
+  slides.forEach((slide) => {
+    slide.style.display = "none";
+  });
+
+  // Increment the slideIndex and wrap around if necessary
   slideIndex++;
   if (slideIndex > slides.length) {
     slideIndex = 1;
   }
-  showSlides(slideIndex, slideshowIndex);
+
+  // Display the current slide
+  slides[slideIndex - 1].style.display = "block";
+
+  // Update the appropriate slideIndex variable
+  if (slideshowIndex === 1) {
+    slideIndex1 = slideIndex;
+  } else if (slideshowIndex === 2) {
+    slideIndex2 = slideIndex;
+  } else if (slideshowIndex === 3) {
+    slideIndex3 = slideIndex;
+  } else if (slideshowIndex === 4) {
+    slideIndex4 = slideIndex;
+  } else if (slideshowIndex === 5) {
+    slideIndex5 = slideIndex;
+  }
 
   // Set the timeout for the next slide
   setTimeout(function () {
     startSlideshow(slideshowIndex);
   }, 5000); // Change image every 5 seconds
 }
-
-// Call the startSlideshow function for each slideshow
-document.addEventListener("DOMContentLoaded", function () {
-  for (let i = 1; i <= 5; i++) {
-    startSlideshow(i);
-  }
-});
 
 // Event listeners for dot navigation
 document.querySelectorAll(".dot").forEach(function (dot) {
