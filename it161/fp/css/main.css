@@ -922,9 +922,9 @@ footer {
         font-size: 12px;
     }
 
+    /* Scale social media icons with screen width */
     .header-social-link {
-        width: 8vw;
-        height: 8vw;
+        padding: 3vw;
     }
 
     .navigation {
