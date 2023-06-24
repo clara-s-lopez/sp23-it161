@@ -922,6 +922,11 @@ footer {
         font-size: 12px;
     }
 
+    .header-social-link {
+        width: 8vw;
+        height: 8vw;
+    }
+
     .navigation {
         grid-template-columns: 100vw;
         height: 75px;
