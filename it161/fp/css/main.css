@@ -294,29 +294,6 @@ main.home {
     box-sizing: border-box;
 }
 
-  
-  @media all and (max-width:663px) {
-    .my-column {
-        width: 100%;
-      }
- }
-
-  /* flexible image rules start here */
-
-
-.flexible img{
-    width:100%;
-}
- 
- 
-.flexible{
-    display: flex;
-    justify-content: space-evenly;
-}
- 
- 
- /* flexible image rules end here */
-
 /* grid rules start here */
 
 .layout {
